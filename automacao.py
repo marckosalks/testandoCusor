@@ -69,14 +69,30 @@ try:
     print("⏳ Aguardando página carregar...")
     time.sleep(15)  # Aumentado de 10 para 15 segundos
     
-    # Verifica se precisa fazer login
+    # Login automático
     try:
-        login_field = driver.find_element(By.ID, "username")
-        if login_field:
-            print("🔐 Por favor, faça o login manualmente e pressione ENTER quando estiver pronto...")
-            input()
-    except:
-        print("✅ Já está logado ou login não é necessário")
+        # Aguardar e preencher o campo de usuário
+        username_field = WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.NAME, "user_name"))
+        )
+        username_field.clear()
+        username_field.send_keys("50612104842")
+        
+        # Preencher o campo de senha
+        password_field = driver.find_element(By.NAME, "user_password")
+        password_field.clear()
+        password_field.send_keys("Pi@123456789")
+        
+        # Clicar no botão de login
+        login_button = driver.find_element(By.CSS_SELECTOR, "button.btn.btn-entrar")
+        login_button.click()
+        
+        print("✅ Login realizado automaticamente")
+        time.sleep(5)  # Aguardar o login ser processado
+    except Exception as e:
+        print(f"❌ Erro ao realizar login automático: {str(e)}")
+        print("🔐 Por favor, faça o login manualmente e pressione ENTER quando estiver pronto...")
+        input()
 
     # 🔹 Configurar o filtro "Nome Fantasia" uma única vez
     print("⏳ Configurando filtro 'Nome Fantasia'...")
