@@ -1,0 +1,1621 @@
+2025-04-04 00:46:30 - Processando: loja
+2025-04-04 00:46:42 - Erro ao processar 'loja': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0095C7F3+24435]
+	(No symbol) [0x008E2074]
+	(No symbol) [0x007B06E3]
+	(No symbol) [0x007F8B39]
+	(No symbol) [0x007F8E8B]
+	(No symbol) [0x00841AC2]
+	(No symbol) [0x0081D804]
+	(No symbol) [0x0083F20A]
+	(No symbol) [0x0081D5B6]
+	(No symbol) [0x007EC54F]
+	(No symbol) [0x007ED894]
+	GetHandleVerifier [0x00C670A3+3213347]
+	GetHandleVerifier [0x00C7B0C9+3295305]
+	GetHandleVerifier [0x00C7558C+3271948]
+	GetHandleVerifier [0x009F7360+658144]
+	(No symbol) [0x008EB27D]
+	(No symbol) [0x008E8208]
+	(No symbol) [0x008E83A9]
+	(No symbol) [0x008DAAC0]
+	BaseThreadInitThunk [0x76895D49+25]
+	RtlInitializeExceptionChain [0x77BDCF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77BDCE91+561]
+
+2025-04-04 00:46:42 - --------------------------------------------------
+2025-04-04 00:46:42 - Processando: 99KJOIAS
+2025-04-04 00:47:14 - Informações encontradas para 99KJOIAS:
+2025-04-04 00:47:14 - Sequencia: 1
+2025-04-04 00:47:14 - ID: 594496
+2025-04-04 00:47:14 - Codigo: OMNI MARKET LTDA
+2025-04-04 00:47:14 - Nome: 99KJOIAS
+2025-04-04 00:47:14 - Nome_Fantasia: 99KJOIAS
+2025-04-04 00:47:14 - CNPJ: 39.666.776/0001-80
+2025-04-04 00:47:14 - CEP: 03245-000
+2025-04-04 00:47:14 - Telefone: 11982702936
+2025-04-04 00:47:14 - Data_Validade: 27/03/2025
+2025-04-04 00:47:14 - Ultima_Atualizacao: 01/06/2024 - 13:54
+2025-04-04 00:47:14 - Token: 3f5efdaf18b64bca183875cfe1065269
+2025-04-04 00:47:14 - --------------------------------------------------
+2025-04-04 00:47:17 - Processando: A. S. PRINTER
+2025-04-04 00:47:34 - Informações encontradas para A. S. PRINTER:
+2025-04-04 00:47:34 - Sequencia: 1
+2025-04-04 00:47:34 - ID: 494865
+2025-04-04 00:47:34 - Codigo: 1250160033
+2025-04-04 00:47:34 - Nome: A. S. PRINTER
+2025-04-04 00:47:34 - Nome_Fantasia: A. S. PRINTER
+2025-04-04 00:47:34 - CNPJ: 33.598.881/0001-43
+2025-04-04 00:47:34 - CEP: 08430-200
+2025-04-04 00:47:34 - Telefone: 11 984935416
+2025-04-04 00:47:34 - Data_Validade: 17/03/2025
+2025-04-04 00:47:34 - Ultima_Atualizacao: 05/02/2024 - 10:45
+2025-04-04 00:47:34 - Token: 66fa91ef43ace6d3225699b5d23618dc
+2025-04-04 00:47:34 - --------------------------------------------------
+2025-04-04 00:47:37 - Processando: ABOTICA ORGANICA
+2025-04-04 00:47:54 - Não foram encontradas informações para: ABOTICA ORGANICA
+2025-04-04 00:47:54 - --------------------------------------------------
+2025-04-04 00:47:57 - Processando: ACCIO COMERCIAL IMPORTADORA LTDA
+2025-04-04 00:48:14 - Informações encontradas para ACCIO COMERCIAL IMPORTADORA LTDA:
+2025-04-04 00:48:14 - Sequencia: 1
+2025-04-04 00:48:14 - ID: 638769
+2025-04-04 00:48:14 - Codigo: ACCIO COMERCIAL IMPORTADORA LTDA
+2025-04-04 00:48:14 - Nome: ACCIO COMERCIAL IMPORTADORA LTDA
+2025-04-04 00:48:14 - Nome_Fantasia: ACCIO COMERCIAL IMPORTADORA LTDA
+2025-04-04 00:48:14 - CNPJ: 48.583.422/0001-63
+2025-04-04 00:48:14 - CEP: 03403-001
+2025-04-04 00:48:14 - Telefone: (11) 91685-3406
+2025-04-04 00:48:14 - Data_Validade: 18/03/2025
+2025-04-04 00:48:14 - Ultima_Atualizacao: 19/06/2024 - 14:54
+2025-04-04 00:48:14 - Token: afd332386de3b7ddfd29ba88583bd0fa
+2025-04-04 00:48:14 - --------------------------------------------------
+2025-04-04 00:48:17 - Processando: ALLBRVE
+2025-04-04 00:48:33 - Informações encontradas para ALLBRVE:
+2025-04-04 00:48:33 - Sequencia: 1
+2025-04-04 00:48:33 - ID: 452119
+2025-04-04 00:48:33 - Codigo: AVULSO ALLBRVE
+2025-04-04 00:48:33 - Nome: ALLBRVE
+2025-04-04 00:48:33 - Nome_Fantasia: ALLBRVE
+2025-04-04 00:48:33 - CNPJ: 40.363.826/0001-30
+2025-04-04 00:48:33 - CEP: 03087-010
+2025-04-04 00:48:33 - Telefone: 1194661-5590
+2025-04-04 00:48:33 - Data_Validade: 03/04/2025
+2025-04-04 00:48:33 - Ultima_Atualizacao: 27/07/2023 - 12:48
+2025-04-04 00:48:33 - Token: 496ba1eebeffdd2b76475aa07dc0dc15
+2025-04-04 00:48:33 - --------------------------------------------------
+2025-04-04 00:48:36 - Processando: AMARRA E SAI
+2025-04-04 00:48:53 - Informações encontradas para AMARRA E SAI:
+2025-04-04 00:48:53 - Sequencia: 1
+2025-04-04 00:48:53 - ID: 445804
+2025-04-04 00:48:53 - Codigo: 1165090949
+2025-04-04 00:48:53 - Nome: AMARRA E SAI
+2025-04-04 00:48:53 - Nome_Fantasia: AMARRA E SAI
+2025-04-04 00:48:53 - CNPJ: 31.666.388/0001-98
+2025-04-04 00:48:53 - CEP: 03163-040
+2025-04-04 00:48:53 - Telefone: 11982817878
+2025-04-04 00:48:53 - Data_Validade: 03/04/2025
+2025-04-04 00:48:53 - Ultima_Atualizacao: 16/06/2023 - 11:46
+2025-04-04 00:48:53 - Token: 4821bf0a321dcd5fdc55c946ef77a9dd
+2025-04-04 00:48:53 - --------------------------------------------------
+2025-04-04 00:48:56 - Processando: AQUA MARINE
+2025-04-04 00:49:13 - Informações encontradas para AQUA MARINE:
+2025-04-04 00:49:13 - Sequencia: 1
+2025-04-04 00:49:13 - ID: 328212
+2025-04-04 00:49:13 - Codigo: 1113255709
+2025-04-04 00:49:13 - Nome: AQUA MARINE #NFJ3
+2025-04-04 00:49:13 - Nome_Fantasia: AQUA MARINE
+2025-04-04 00:49:13 - CNPJ: 48.550.023/0001-04
+2025-04-04 00:49:13 - CEP: 08538-200
+2025-04-04 00:49:13 - Telefone: (11) 99580-5924
+2025-04-04 00:49:13 - Data_Validade: 03/04/2025
+2025-04-04 00:49:13 - Ultima_Atualizacao: 17/03/2023 - 10:48
+2025-04-04 00:49:13 - Token: 89e5bbe67486fa4df217172a97d7340d
+2025-04-04 00:49:13 - --------------------------------------------------
+2025-04-04 00:49:16 - Processando: ARTBABYS
+2025-04-04 00:49:33 - Informações encontradas para ARTBABYS:
+2025-04-04 00:49:33 - Sequencia: 1
+2025-04-04 00:49:33 - ID: 124185
+2025-04-04 00:49:33 - Codigo: ARTBABYS
+2025-04-04 00:49:33 - Nome: ART BABYS
+2025-04-04 00:49:33 - Nome_Fantasia: ARTBABYS
+2025-04-04 00:49:33 - CNPJ: 391.661.028-71
+2025-04-04 00:49:33 - CEP: 05201-050
+2025-04-04 00:49:33 - Telefone: 11 94667-1303
+2025-04-04 00:49:33 - Data_Validade: 14/03/2025
+2025-04-04 00:49:33 - Ultima_Atualizacao: 14/09/2022 - 09:48
+2025-04-04 00:49:33 - Token: d6175642ba2e9b58c9b20e3ced28b874
+2025-04-04 00:49:33 - --------------------------------------------------
+2025-04-04 00:49:36 - Processando: ARTEXOTICS
+2025-04-04 00:49:53 - Informações encontradas para ARTEXOTICS:
+2025-04-04 00:49:53 - Sequencia: 1
+2025-04-04 00:49:53 - ID: 319644
+2025-04-04 00:49:53 - Codigo: 44263855
+2025-04-04 00:49:53 - Nome: ARTEXOTICS
+2025-04-04 00:49:53 - Nome_Fantasia: ARTEXOTICS
+2025-04-04 00:49:53 - CNPJ: 35.303.419/0001-05
+2025-04-04 00:49:53 - CEP: 03946-070
+2025-04-04 00:49:53 - Telefone: 11 97643-4915
+2025-04-04 00:49:53 - Data_Validade: 24/03/2025
+2025-04-04 00:49:53 - Ultima_Atualizacao: 30/12/2022 - 10:19
+2025-04-04 00:49:53 - Token: 3c4a8fb6a511a16c05b1117dab9c2cac
+2025-04-04 00:49:53 - --------------------------------------------------
+2025-04-04 00:49:56 - Processando: ATACADAO DO ARTESANATO
+2025-04-04 00:50:13 - Informações encontradas para ATACADAO DO ARTESANATO:
+2025-04-04 00:50:13 - Sequencia: 1
+2025-04-04 00:50:13 - ID: 37532
+2025-04-04 00:50:13 - Codigo: ATACADÃO / MANUAL
+2025-04-04 00:50:13 - Nome: CRISTIANE ATACADÃO 1
+2025-04-04 00:50:13 - Nome_Fantasia: ATACADAO DO ARTESANATO
+2025-04-04 00:50:13 - CNPJ: 23.417.151/0001-45
+2025-04-04 00:50:13 - CEP: 03325-060
+2025-04-04 00:50:13 - Telefone: 11 96333 9593
+2025-04-04 00:50:13 - Data_Validade: 03/04/2025
+2025-04-04 00:50:13 - Ultima_Atualizacao: 11/07/2022 - 09:54
+2025-04-04 00:50:13 - Token: 969b87868d1383c8309005b9a9e4ce74
+2025-04-04 00:50:13 - --------------------------------------------------
+2025-04-04 00:50:16 - Processando: ATELIE AROMARY
+2025-04-04 00:50:33 - Não foram encontradas informações para: ATELIE AROMARY
+2025-04-04 00:50:33 - --------------------------------------------------
+2025-04-04 00:50:36 - Processando: AUTOPRINT
+2025-04-04 00:50:53 - Informações encontradas para AUTOPRINT:
+2025-04-04 00:50:53 - Sequencia: 1
+2025-04-04 00:50:53 - ID: 455471
+2025-04-04 00:50:53 - Codigo: 1434976558
+2025-04-04 00:50:53 - Nome: AUTOPRINT
+2025-04-04 00:50:53 - Nome_Fantasia: AUTOPRINT
+2025-04-04 00:50:53 - CNPJ: 49.930.583/0001-49
+2025-04-04 00:50:53 - CEP: 01228-000
+2025-04-04 00:50:53 - Telefone: (11) 99113-7488
+2025-04-04 00:50:53 - Data_Validade: 19/02/2025
+2025-04-04 00:50:53 - Ultima_Atualizacao: 01/09/2023 - 11:09
+2025-04-04 00:50:53 - Token: 3dc025445c7e581b41cccd8a665113fe
+2025-04-04 00:50:53 - --------------------------------------------------
+2025-04-04 00:50:56 - Processando: BALI PET DISTRIBUIDORA
+2025-04-04 00:51:13 - Informações encontradas para BALI PET DISTRIBUIDORA:
+2025-04-04 00:51:13 - Sequencia: 1
+2025-04-04 00:51:13 - ID: 16535
+2025-04-04 00:51:13 - Codigo: 434115232
+2025-04-04 00:51:13 - Nome: BALI PET DISTRIBUIDORA
+2025-04-04 00:51:13 - Nome_Fantasia: BALI PET DISTRIBUIDORA
+2025-04-04 00:51:13 - CNPJ: 33.912.013/0001-96
+2025-04-04 00:51:13 - CEP: 03226-050
+2025-04-04 00:51:13 - Telefone: (11)97477-1326
+2025-04-04 00:51:13 - Data_Validade: 03/04/2025
+2025-04-04 00:51:13 - Ultima_Atualizacao: 25/08/2021 - 15:22
+2025-04-04 00:51:13 - Token: 38aacc31ffc348dd77c0f91d80806f2c
+2025-04-04 00:51:13 - --------------------------------------------------
+2025-04-04 00:51:16 - Processando: BEBRANDS COMéRCIO VAREJISTA
+2025-04-04 00:51:33 - Informações encontradas para BEBRANDS COMéRCIO VAREJISTA:
+2025-04-04 00:51:33 - Sequencia: 1
+2025-04-04 00:51:33 - ID: 14584
+2025-04-04 00:51:33 - Codigo: 97095415
+2025-04-04 00:51:33 - Nome: BEBRANDS
+2025-04-04 00:51:33 - Nome_Fantasia: BEBRANDS COMÉRCIO VAREJISTA
+2025-04-04 00:51:33 - CNPJ: 37.433.616/0001-66
+2025-04-04 00:51:33 - CEP: 05542-000
+2025-04-04 00:51:33 - Telefone: 11982386259
+2025-04-04 00:51:33 - Data_Validade: 08/03/2025
+2025-04-04 00:51:33 - Ultima_Atualizacao: 02/08/2021 - 00:53
+2025-04-04 00:51:33 - Token: 7c41d88fda142fa56761020236d01b91
+2025-04-04 00:51:33 - --------------------------------------------------
+2025-04-04 00:51:36 - Processando: BH IMPORTS
+2025-04-04 00:51:53 - Informações encontradas para BH IMPORTS:
+2025-04-04 00:51:53 - Sequencia: 1
+2025-04-04 00:51:53 - ID: 132568
+2025-04-04 00:51:53 - Codigo: 1113692655
+2025-04-04 00:51:53 - Nome: BH IMPORTS_RO
+2025-04-04 00:51:53 - Nome_Fantasia: BH IMPORTS_RO
+2025-04-04 00:51:53 - CNPJ: 46.093.628/0001-80
+2025-04-04 00:51:53 - CEP: 30575-857
+2025-04-04 00:51:53 - Telefone: 31 99727-1708
+2025-04-04 00:51:53 - Data_Validade: 03/04/2025
+2025-04-04 00:51:53 - Ultima_Atualizacao: 15/09/2022 - 10:28
+2025-04-04 00:51:53 - Token: c2110be880c269c33351e9aad1755cfa
+2025-04-04 00:51:53 - --------------------------------------------------
+2025-04-04 00:51:56 - Processando: BH IMPORTS_RO 
+2025-04-04 00:52:13 - Informações encontradas para BH IMPORTS_RO :
+2025-04-04 00:52:13 - Sequencia: 1
+2025-04-04 00:52:13 - ID: 132568
+2025-04-04 00:52:13 - Codigo: 1113692655
+2025-04-04 00:52:13 - Nome: BH IMPORTS_RO
+2025-04-04 00:52:13 - Nome_Fantasia: BH IMPORTS_RO
+2025-04-04 00:52:13 - CNPJ: 46.093.628/0001-80
+2025-04-04 00:52:13 - CEP: 30575-857
+2025-04-04 00:52:13 - Telefone: 31 99727-1708
+2025-04-04 00:52:13 - Data_Validade: 03/04/2025
+2025-04-04 00:52:13 - Ultima_Atualizacao: 15/09/2022 - 10:28
+2025-04-04 00:52:13 - Token: c2110be880c269c33351e9aad1755cfa
+2025-04-04 00:52:13 - --------------------------------------------------
+2025-04-04 00:52:16 - Processando: BLOG STORES
+2025-04-04 00:52:33 - Informações encontradas para BLOG STORES:
+2025-04-04 00:52:33 - Sequencia: 1
+2025-04-04 00:52:33 - ID: 445080
+2025-04-04 00:52:33 - Codigo: 1346934871
+2025-04-04 00:52:33 - Nome: BLOG STORES
+2025-04-04 00:52:33 - Nome_Fantasia: BLOG STORES
+2025-04-04 00:52:33 - CNPJ: 50.185.110/0001-43
+2025-04-04 00:52:33 - CEP: 02116-001
+2025-04-04 00:52:33 - Telefone: 11985030126
+2025-04-04 00:52:33 - Data_Validade: 03/04/2025
+2025-04-04 00:52:33 - Ultima_Atualizacao: 13/06/2023 - 14:45
+2025-04-04 00:52:33 - Token: a577040e5ad29cb837f9ac8d1e55d3bb
+2025-04-04 00:52:33 - --------------------------------------------------
+2025-04-04 00:52:36 - Processando: BLOO BABY
+2025-04-04 00:52:52 - Informações encontradas para BLOO BABY:
+2025-04-04 00:52:52 - Sequencia: 1
+2025-04-04 00:52:52 - ID: 772374
+2025-04-04 00:52:52 - Codigo: 799560516
+2025-04-04 00:52:52 - Nome: Não informado
+2025-04-04 00:52:52 - Nome_Fantasia: Bloo Baby
+2025-04-04 00:52:52 - CNPJ: 007.995.605-16
+2025-04-04 00:52:52 - CEP: 02333-000
+2025-04-04 00:52:52 - Telefone: Não informado
+2025-04-04 00:52:52 - Data_Validade: Não informado
+2025-04-04 00:52:52 - Ultima_Atualizacao: 23/07/2024 - 11:14
+2025-04-04 00:52:52 - Token: 236ec0043847e467d8ce1091c54fb92a
+2025-04-04 00:52:52 - --------------------------------------------------
+2025-04-04 00:52:55 - Processando: BLUMOS STORE
+2025-04-04 00:53:12 - Informações encontradas para BLUMOS STORE:
+2025-04-04 00:53:12 - Sequencia: 1
+2025-04-04 00:53:12 - ID: 498360
+2025-04-04 00:53:12 - Codigo: BLUMOS STORE
+2025-04-04 00:53:12 - Nome: BLUMOS STORE
+2025-04-04 00:53:12 - Nome_Fantasia: BLUMOS STORE
+2025-04-04 00:53:12 - CNPJ: 52.501.187/0001-00
+2025-04-04 00:53:12 - CEP: 30550-400
+2025-04-04 00:53:12 - Telefone: 31973188594
+2025-04-04 00:53:12 - Data_Validade: 03/04/2025
+2025-04-04 00:53:12 - Ultima_Atualizacao: 15/02/2024 - 16:38
+2025-04-04 00:53:13 - Token: 253e2fea0d9ce0717f87e14fcd6ad36e
+2025-04-04 00:53:13 - --------------------------------------------------
+2025-04-04 00:53:16 - Processando: BONITAFIT CONFECCOES LTDA
+2025-04-04 00:53:33 - Não foram encontradas informações para: BONITAFIT CONFECCOES LTDA
+2025-04-04 00:53:33 - --------------------------------------------------
+2025-04-04 00:53:36 - Processando: BORRACHINHA TATAMES
+2025-04-04 00:53:52 - Informações encontradas para BORRACHINHA TATAMES:
+2025-04-04 00:53:52 - Sequencia: 1
+2025-04-04 00:53:52 - ID: 453785
+2025-04-04 00:53:52 - Codigo: BORRACHINHA TATAMES
+2025-04-04 00:53:52 - Nome: BORRACHINHA TATAMES
+2025-04-04 00:53:52 - Nome_Fantasia: BORRACHINHA TATAMES
+2025-04-04 00:53:52 - CNPJ: 44.177.774/0001-68
+2025-04-04 00:53:52 - CEP: 09080-000
+2025-04-04 00:53:52 - Telefone: Não informado
+2025-04-04 00:53:52 - Data_Validade: 03/04/2025
+2025-04-04 00:53:52 - Ultima_Atualizacao: 16/08/2023 - 11:59
+2025-04-04 00:53:52 - Token: b24ad5ce76d471f2f196b15d760e6ffe
+2025-04-04 00:53:52 - --------------------------------------------------
+2025-04-04 00:53:55 - Processando: BREEZE NATURE
+2025-04-04 00:54:12 - Informações encontradas para BREEZE NATURE:
+2025-04-04 00:54:12 - Sequencia: 1
+2025-04-04 00:54:12 - ID: 34975
+2025-04-04 00:54:12 - Codigo: 467740813
+2025-04-04 00:54:12 - Nome: EMPREENDIMENTOS SOUZA & SOUZA LTDA
+2025-04-04 00:54:12 - Nome_Fantasia: BREEZE NATURE
+2025-04-04 00:54:12 - CNPJ: 31.614.111/0001-11
+2025-04-04 00:54:12 - CEP: 31270-020
+2025-04-04 00:54:12 - Telefone: 31 99795-2804
+2025-04-04 00:54:12 - Data_Validade: 03/04/2025
+2025-04-04 00:54:12 - Ultima_Atualizacao: 07/06/2022 - 09:58
+2025-04-04 00:54:12 - Token: 520c13be98594d68b54b8f64caf384ff
+2025-04-04 00:54:12 - --------------------------------------------------
+2025-04-04 00:54:15 - Processando: BUKI COMERCIO E CONFECCAO LTDA
+2025-04-04 00:54:31 - Informações encontradas para BUKI COMERCIO E CONFECCAO LTDA:
+2025-04-04 00:54:31 - Sequencia: 1
+2025-04-04 00:54:31 - ID: 313830
+2025-04-04 00:54:31 - Codigo: BUKI
+2025-04-04 00:54:31 - Nome: MOMIS PETIT
+2025-04-04 00:54:31 - Nome_Fantasia: BUKI COMERCIO E CONFECCAO LTDA
+2025-04-04 00:54:31 - CNPJ: 47.225.067/0001-98
+2025-04-04 00:54:31 - CEP: 01217-010
+2025-04-04 00:54:31 - Telefone: (11) 9617-0172
+2025-04-04 00:54:31 - Data_Validade: 25/03/2025
+2025-04-04 00:54:31 - Ultima_Atualizacao: 06/12/2022 - 14:14
+2025-04-04 00:54:31 - Token: 06925bf5914e2bbc9eaa1e7a059c1c34
+2025-04-04 00:54:31 - --------------------------------------------------
+2025-04-04 00:54:34 - Processando: CASINHA DAS ESSENCIAS
+2025-04-04 00:54:51 - Não foram encontradas informações para: CASINHA DAS ESSENCIAS
+2025-04-04 00:54:51 - --------------------------------------------------
+2025-04-04 00:54:54 - Processando: CASTANHA DO BEM
+2025-04-04 00:55:11 - Informações encontradas para CASTANHA DO BEM:
+2025-04-04 00:55:11 - Sequencia: 1
+2025-04-04 00:55:11 - ID: 33238
+2025-04-04 00:55:11 - Codigo: 577549462
+2025-04-04 00:55:11 - Nome: CASTANHA DO BEM
+2025-04-04 00:55:11 - Nome_Fantasia: CASTANHA DO BEM
+2025-04-04 00:55:11 - CNPJ: 41.343.766/0001-56
+2025-04-04 00:55:11 - CEP: 04005-002
+2025-04-04 00:55:11 - Telefone: 11 97094-5580
+2025-04-04 00:55:11 - Data_Validade: 03/04/2025
+2025-04-04 00:55:11 - Ultima_Atualizacao: 11/05/2022 - 11:22
+2025-04-04 00:55:11 - Token: 2aa6027563fbea264f3c2d89767a31ae
+2025-04-04 00:55:11 - --------------------------------------------------
+2025-04-04 00:55:14 - Processando: CASULO DE ANJO
+2025-04-04 00:55:31 - Informações encontradas para CASULO DE ANJO:
+2025-04-04 00:55:31 - Sequencia: 1
+2025-04-04 00:55:31 - ID: 38431
+2025-04-04 00:55:31 - Codigo: 394856248
+2025-04-04 00:55:31 - Nome: CASULO ADE ANJO
+2025-04-04 00:55:31 - Nome_Fantasia: CASULO DE ANJO
+2025-04-04 00:55:31 - CNPJ: 30.232.307/0001-89
+2025-04-04 00:55:31 - CEP: 02350-014
+2025-04-04 00:55:31 - Telefone: 11996913759
+2025-04-04 00:55:31 - Data_Validade: 03/04/2025
+2025-04-04 00:55:31 - Ultima_Atualizacao: 27/07/2022 - 15:20
+2025-04-04 00:55:31 - Token: 8cc140b4e5e38aac28189e22d0644fe6
+2025-04-04 00:55:31 - --------------------------------------------------
+2025-04-04 00:55:34 - Processando: CENTRAL SHOP
+2025-04-04 00:55:50 - Informações encontradas para CENTRAL SHOP:
+2025-04-04 00:55:50 - Sequencia: 1
+2025-04-04 00:55:50 - ID: 496431
+2025-04-04 00:55:50 - Codigo: 1337380123
+2025-04-04 00:55:50 - Nome: CENTRAL ÉROTICA SEX SHOP
+2025-04-04 00:55:50 - Nome_Fantasia: CENTRAL SHOP
+2025-04-04 00:55:50 - CNPJ: 09.180.976/0001-68
+2025-04-04 00:55:50 - CEP: 04523-010
+2025-04-04 00:55:50 - Telefone: 11994080563
+2025-04-04 00:55:50 - Data_Validade: 03/04/2025
+2025-04-04 00:55:50 - Ultima_Atualizacao: 08/02/2024 - 15:33
+2025-04-04 00:55:50 - Token: 3ddaad5021316b378efc88da2ebf8c28
+2025-04-04 00:55:50 - --------------------------------------------------
+2025-04-04 00:55:53 - Processando: CIEL RENDAS
+2025-04-04 00:56:10 - Informações encontradas para CIEL RENDAS:
+2025-04-04 00:56:10 - Sequencia: 1
+2025-04-04 00:56:10 - ID: 799197
+2025-04-04 00:56:10 - Codigo: 309485356
+2025-04-04 00:56:10 - Nome: CIEL RENDAS
+2025-04-04 00:56:10 - Nome_Fantasia: CIEL RENDAS
+2025-04-04 00:56:10 - CNPJ: 69.235.497/0001-23
+2025-04-04 00:56:10 - CEP: 01021-200
+2025-04-04 00:56:10 - Telefone: 11 95606-8989
+2025-04-04 00:56:10 - Data_Validade: 03/04/2025
+2025-04-04 00:56:10 - Ultima_Atualizacao: 16/08/2024 - 16:53
+2025-04-04 00:56:10 - Token: 6b8f246b07d7da9f06b372b6b3dbc7bb
+2025-04-04 00:56:10 - --------------------------------------------------
+2025-04-04 00:56:13 - Processando: CIRURGICA MG 
+2025-04-04 00:56:30 - Não foram encontradas informações para: CIRURGICA MG 
+2025-04-04 00:56:30 - --------------------------------------------------
+2025-04-04 00:56:33 - Processando: CNK EMBALAGENS
+2025-04-04 00:56:50 - Informações encontradas para CNK EMBALAGENS:
+2025-04-04 00:56:50 - Sequencia: 1
+2025-04-04 00:56:50 - ID: 452298
+2025-04-04 00:56:50 - Codigo: 123981358
+2025-04-04 00:56:50 - Nome: CNK EMBALAGENS
+2025-04-04 00:56:50 - Nome_Fantasia: CNK EMBALAGENS
+2025-04-04 00:56:50 - CNPJ: 46.036.949/0001-42
+2025-04-04 00:56:50 - CEP: 04933-110
+2025-04-04 00:56:50 - Telefone: 11 94269-6637
+2025-04-04 00:56:50 - Data_Validade: 02/04/2025
+2025-04-04 00:56:50 - Ultima_Atualizacao: 29/07/2023 - 11:56
+2025-04-04 00:56:50 - Token: 8004a943e108d3b6d0ca079ce0ca0a78
+2025-04-04 00:56:50 - --------------------------------------------------
+2025-04-04 00:56:53 - Processando: COLUMBIA STORE
+2025-04-04 00:57:10 - Informações encontradas para COLUMBIA STORE:
+2025-04-04 00:57:10 - Sequencia: 1
+2025-04-04 00:57:10 - ID: 31730
+2025-04-04 00:57:10 - Codigo: 375304622
+2025-04-04 00:57:10 - Nome: COLUMBIA SUPRI
+2025-04-04 00:57:10 - Nome_Fantasia: COLUMBIA STORE
+2025-04-04 00:57:10 - CNPJ: 10.969.809/0001-80
+2025-04-04 00:57:10 - CEP: 08265-040
+2025-04-04 00:57:10 - Telefone: 11 96474-0457
+2025-04-04 00:57:10 - Data_Validade: 03/04/2025
+2025-04-04 00:57:10 - Ultima_Atualizacao: 12/04/2022 - 17:05
+2025-04-04 00:57:10 - Token: 657700e574f8b4be0b7d3f77080c26ab
+2025-04-04 00:57:10 - --------------------------------------------------
+2025-04-04 00:57:13 - Processando: COMERCIAL LUVI
+2025-04-04 00:57:29 - Informações encontradas para COMERCIAL LUVI:
+2025-04-04 00:57:29 - Sequencia: 1
+2025-04-04 00:57:29 - ID: 490451
+2025-04-04 00:57:29 - Codigo: 245441289
+2025-04-04 00:57:29 - Nome: COMERCIAL LUVI
+2025-04-04 00:57:29 - Nome_Fantasia: COMERCIAL LUVI
+2025-04-04 00:57:29 - CNPJ: 30.314.688/0001-45
+2025-04-04 00:57:29 - CEP: 09941-450
+2025-04-04 00:57:29 - Telefone: 5511957610300
+2025-04-04 00:57:29 - Data_Validade: 31/01/2025
+2025-04-04 00:57:29 - Ultima_Atualizacao: 22/01/2024 - 11:24
+2025-04-04 00:57:29 - Token: 086c655b9e4dff4eb832adb067daf120
+2025-04-04 00:57:29 - --------------------------------------------------
+2025-04-04 00:57:32 - Processando: COMPETITION HOBBIES 1
+2025-04-04 00:57:49 - Informações encontradas para COMPETITION HOBBIES 1:
+2025-04-04 00:57:49 - Sequencia: 1
+2025-04-04 00:57:49 - ID: 41222
+2025-04-04 00:57:49 - Codigo: COMPETITION HOBBIES
+2025-04-04 00:57:49 - Nome: COMPETITION HOBBIES #NFJ3
+2025-04-04 00:57:49 - Nome_Fantasia: COMPETITION HOBBIES 1
+2025-04-04 00:57:49 - CNPJ: 05.141.998/0001-68
+2025-04-04 00:57:49 - CEP: 04631-010
+2025-04-04 00:57:49 - Telefone: 11 98333-1926
+2025-04-04 00:57:49 - Data_Validade: 02/04/2025
+2025-04-04 00:57:49 - Ultima_Atualizacao: 12/08/2022 - 14:53
+2025-04-04 00:57:49 - Token: 1c60476deecc09a33d07c5fa2d8f015e
+2025-04-04 00:57:49 - --------------------------------------------------
+2025-04-04 00:57:52 - Processando: CULTIVE COMERCIO E TECNOLOGIA
+2025-04-04 00:58:09 - Não foram encontradas informações para: CULTIVE COMERCIO E TECNOLOGIA
+2025-04-04 00:58:09 - --------------------------------------------------
+2025-04-04 00:58:12 - Processando: DECORE COR COMERCIO DE ARTIGOS EM GERAL LTDA
+2025-04-04 00:58:29 - Não foram encontradas informações para: DECORE COR COMERCIO DE ARTIGOS EM GERAL LTDA
+2025-04-04 00:58:29 - --------------------------------------------------
+2025-04-04 00:58:32 - Processando: DGM COMERCIO E DISTRIBUICAO
+2025-04-04 00:58:48 - Não foram encontradas informações para: DGM COMERCIO E DISTRIBUICAO
+2025-04-04 00:58:48 - --------------------------------------------------
+2025-04-04 00:58:51 - Processando: DONNA COISINHA
+2025-04-04 00:59:08 - Informações encontradas para DONNA COISINHA:
+2025-04-04 00:59:08 - Sequencia: 1
+2025-04-04 00:59:08 - ID: 583767
+2025-04-04 00:59:08 - Codigo: DONNA COISINHA
+2025-04-04 00:59:08 - Nome: DONNA COISINHA
+2025-04-04 00:59:08 - Nome_Fantasia: DONNA COISINHA
+2025-04-04 00:59:08 - CNPJ: 173.243.448-44
+2025-04-04 00:59:08 - CEP: 02273-110
+2025-04-04 00:59:08 - Telefone: 11 94954-1069
+2025-04-04 00:59:08 - Data_Validade: 19/03/2025
+2025-04-04 00:59:08 - Ultima_Atualizacao: 23/05/2024 - 10:01
+2025-04-04 00:59:08 - Token: f7dadd80e9d4a3bd0da9abf5e4832aa0
+2025-04-04 00:59:08 - --------------------------------------------------
+2025-04-04 00:59:11 - Processando: ECARSHOP COMERCIO
+2025-04-04 00:59:28 - Informações encontradas para ECARSHOP COMERCIO:
+2025-04-04 00:59:28 - Sequencia: 1
+2025-04-04 00:59:28 - ID: 296469
+2025-04-04 00:59:28 - Codigo: 710910672
+2025-04-04 00:59:28 - Nome: ECARSHOP COMERCIO
+2025-04-04 00:59:28 - Nome_Fantasia: ECARSHOP COMERCIO
+2025-04-04 00:59:28 - CNPJ: 34.752.059/0002-39
+2025-04-04 00:59:28 - CEP: 04657-000
+2025-04-04 00:59:28 - Telefone: 11 98531-7185
+2025-04-04 00:59:28 - Data_Validade: 03/04/2025
+2025-04-04 00:59:28 - Ultima_Atualizacao: 04/11/2022 - 12:01
+2025-04-04 00:59:28 - Token: e1089657db1c4c615b0f5f0502536645
+2025-04-04 00:59:28 - --------------------------------------------------
+2025-04-04 00:59:31 - Processando: EDSOMONTEIRO
+2025-04-04 00:59:48 - Informações encontradas para EDSOMONTEIRO:
+2025-04-04 00:59:48 - Sequencia: 1
+2025-04-04 00:59:48 - ID: 17264
+2025-04-04 00:59:48 - Codigo: 454266107
+2025-04-04 00:59:48 - Nome: VENDAS ZL
+2025-04-04 00:59:48 - Nome_Fantasia: EDSOMONTEIRO.COM.BR
+2025-04-04 00:59:48 - CNPJ: 10.607.482/0001-04
+2025-04-04 00:59:48 - CEP: 03471-130
+2025-04-04 00:59:48 - Telefone: 11958964230
+2025-04-04 00:59:48 - Data_Validade: 03/04/2025
+2025-04-04 00:59:48 - Ultima_Atualizacao: 14/09/2021 - 10:27
+2025-04-04 00:59:48 - Token: 067372e6639471748bd5fa79f8a8e3dc
+2025-04-04 00:59:48 - --------------------------------------------------
+2025-04-04 00:59:51 - Processando: EDSOMONTEIRO.COM.BR 
+2025-04-04 01:00:08 - Informações encontradas para EDSOMONTEIRO.COM.BR :
+2025-04-04 01:00:08 - Sequencia: 1
+2025-04-04 01:00:08 - ID: 17264
+2025-04-04 01:00:08 - Codigo: 454266107
+2025-04-04 01:00:08 - Nome: VENDAS ZL
+2025-04-04 01:00:08 - Nome_Fantasia: EDSOMONTEIRO.COM.BR
+2025-04-04 01:00:08 - CNPJ: 10.607.482/0001-04
+2025-04-04 01:00:08 - CEP: 03471-130
+2025-04-04 01:00:08 - Telefone: 11958964230
+2025-04-04 01:00:08 - Data_Validade: 03/04/2025
+2025-04-04 01:00:08 - Ultima_Atualizacao: 14/09/2021 - 10:27
+2025-04-04 01:00:08 - Token: 067372e6639471748bd5fa79f8a8e3dc
+2025-04-04 01:00:08 - --------------------------------------------------
+2025-04-04 01:00:11 - Processando: EMOTIONS ART PRESENTES PERSONALIZADOS
+2025-04-04 01:00:28 - Informações encontradas para EMOTIONS ART PRESENTES PERSONALIZADOS:
+2025-04-04 01:00:28 - Sequencia: 1
+2025-04-04 01:00:28 - ID: 327589
+2025-04-04 01:00:28 - Codigo: 233501840
+2025-04-04 01:00:28 - Nome: ESTEFANY RESTINI
+2025-04-04 01:00:28 - Nome_Fantasia: EMOTIONS ART PRESENTES PERSONALIZADOS
+2025-04-04 01:00:28 - CNPJ: 23.599.490/0001-90
+2025-04-04 01:00:28 - CEP: 03814-020
+2025-04-04 01:00:28 - Telefone: 11992745215
+2025-04-04 01:00:28 - Data_Validade: 03/04/2025
+2025-04-04 01:00:28 - Ultima_Atualizacao: 13/03/2023 - 11:14
+2025-04-04 01:00:28 - Token: dc27585ac1e418efd6556921de39b2cf
+2025-04-04 01:00:28 - --------------------------------------------------
+2025-04-04 01:00:31 - Processando: EMPIRE PET EXPRESS
+2025-04-04 01:00:48 - Informações encontradas para EMPIRE PET EXPRESS:
+2025-04-04 01:00:48 - Sequencia: 1
+2025-04-04 01:00:48 - ID: 794669
+2025-04-04 01:00:48 - Codigo: EMPIRE PET EXPRESS
+2025-04-04 01:00:48 - Nome: EMPIRE PET EXPRESS
+2025-04-04 01:00:48 - Nome_Fantasia: EMPIRE PET EXPRESS
+2025-04-04 01:00:48 - CNPJ: 09.579.781/0002-76
+2025-04-04 01:00:48 - CEP: 31080-040
+2025-04-04 01:00:48 - Telefone: (31) 98978-7477
+2025-04-04 01:00:48 - Data_Validade: 03/04/2025
+2025-04-04 01:00:48 - Ultima_Atualizacao: 13/08/2024 - 09:43
+2025-04-04 01:00:48 - Token: 51d245508ba6a567a5246652b4a9feb4
+2025-04-04 01:00:48 - --------------------------------------------------
+2025-04-04 01:00:51 - Processando: EMPORIO DAS LEMBRANCINHAS
+2025-04-04 01:01:08 - Não foram encontradas informações para: EMPORIO DAS LEMBRANCINHAS
+2025-04-04 01:01:08 - --------------------------------------------------
+2025-04-04 01:01:11 - Processando: ENVELOPES EXPRESS
+2025-04-04 01:01:28 - Informações encontradas para ENVELOPES EXPRESS:
+2025-04-04 01:01:28 - Sequencia: 1
+2025-04-04 01:01:28 - ID: 488878
+2025-04-04 01:01:28 - Codigo: 1490911566
+2025-04-04 01:01:28 - Nome: ENVELOPES EXPRESS #NFJ3
+2025-04-04 01:01:28 - Nome_Fantasia: ENVELOPES EXPRESS
+2025-04-04 01:01:28 - CNPJ: 27.986.763/0001-00
+2025-04-04 01:01:28 - CEP: 04382-120
+2025-04-04 01:01:28 - Telefone: (11) 96049-7766ECOMMERCE@ENVELOPESEXPRESS.COM.BR
+2025-04-04 01:01:28 - Data_Validade: 03/04/2025
+2025-04-04 01:01:28 - Ultima_Atualizacao: 17/01/2024 - 16:45
+2025-04-04 01:01:28 - Token: b316fe593f429b82023224a5424100db
+2025-04-04 01:01:28 - --------------------------------------------------
+2025-04-04 01:01:31 - Processando: FANFARRINHA
+2025-04-04 01:01:48 - Informações encontradas para FANFARRINHA:
+2025-04-04 01:01:48 - Sequencia: 1
+2025-04-04 01:01:48 - ID: 13858
+2025-04-04 01:01:48 - Codigo: 672641324
+2025-04-04 01:01:48 - Nome: FANFARRINHA
+2025-04-04 01:01:48 - Nome_Fantasia: FANFARRINHA
+2025-04-04 01:01:48 - CNPJ: 01.069.142/0001-78
+2025-04-04 01:01:48 - CEP: 02243-050
+2025-04-04 01:01:48 - Telefone: 11 985884725
+2025-04-04 01:01:48 - Data_Validade: 03/04/2025
+2025-04-04 01:01:48 - Ultima_Atualizacao: 20/07/2021 - 17:24
+2025-04-04 01:01:48 - Token: 298fd1d0fda0f978fdfa5e18ca010a76
+2025-04-04 01:01:48 - --------------------------------------------------
+2025-04-04 01:01:51 - Processando: FARMACIA DE MANIPULACAO VIDA NATURAL
+2025-04-04 01:02:08 - Não foram encontradas informações para: FARMACIA DE MANIPULACAO VIDA NATURAL
+2025-04-04 01:02:08 - --------------------------------------------------
+2025-04-04 01:02:11 - Processando: FLACBOARD TABULEIROS
+2025-04-04 01:02:28 - Informações encontradas para FLACBOARD TABULEIROS:
+2025-04-04 01:02:28 - Sequencia: 1
+2025-04-04 01:02:28 - ID: 230502
+2025-04-04 01:02:28 - Codigo: FLACBOARD TABULEIROS
+2025-04-04 01:02:28 - Nome: FLACBOARD TABULEIROS
+2025-04-04 01:02:28 - Nome_Fantasia: FLACBOARD TABULEIROS
+2025-04-04 01:02:28 - CNPJ: 35.079.880/0001-18
+2025-04-04 01:02:28 - CEP: 08270-280
+2025-04-04 01:02:28 - Telefone: 11976482451
+2025-04-04 01:02:28 - Data_Validade: 03/04/2025
+2025-04-04 01:02:28 - Ultima_Atualizacao: 03/10/2022 - 17:20
+2025-04-04 01:02:28 - Token: b1e1d3c98636ad8731244062a4974dff
+2025-04-04 01:02:28 - --------------------------------------------------
+2025-04-04 01:02:31 - Processando: FMS FARMA LTDA
+2025-04-04 01:02:48 - Informações encontradas para FMS FARMA LTDA:
+2025-04-04 01:02:48 - Sequencia: 1
+2025-04-04 01:02:48 - ID: 323098
+2025-04-04 01:02:48 - Codigo: 1131407931
+2025-04-04 01:02:48 - Nome: LOJA CROMO
+2025-04-04 01:02:48 - Nome_Fantasia: FMS FARMA LTDA
+2025-04-04 01:02:48 - CNPJ: 42.105.647/0001-28
+2025-04-04 01:02:48 - CEP: 05413-020
+2025-04-04 01:02:48 - Telefone: 11 99335-3298
+2025-04-04 01:02:48 - Data_Validade: 03/04/2025
+2025-04-04 01:02:48 - Ultima_Atualizacao: 24/01/2023 - 17:08
+2025-04-04 01:02:48 - Token: ad85d8f7b31533ec4708466a7f4039d1
+2025-04-04 01:02:48 - --------------------------------------------------
+2025-04-04 01:02:51 - Processando: FORMULAB SUPLEMENTOS
+2025-04-04 01:03:07 - Não foram encontradas informações para: FORMULAB SUPLEMENTOS
+2025-04-04 01:03:07 - --------------------------------------------------
+2025-04-04 01:03:10 - Processando: FUZZIE
+2025-04-04 01:03:27 - Informações encontradas para FUZZIE:
+2025-04-04 01:03:27 - Sequencia: 1
+2025-04-04 01:03:27 - ID: 464037
+2025-04-04 01:03:27 - Codigo: 1586986581
+2025-04-04 01:03:27 - Nome: FUZZIE
+2025-04-04 01:03:27 - Nome_Fantasia: FUZZIE
+2025-04-04 01:03:27 - CNPJ: 50.420.707/0001-25
+2025-04-04 01:03:27 - CEP: 03319-002
+2025-04-04 01:03:27 - Telefone: (11) 97235-3336
+2025-04-04 01:03:27 - Data_Validade: 02/04/2025
+2025-04-04 01:03:27 - Ultima_Atualizacao: 06/11/2023 - 16:58
+2025-04-04 01:03:27 - Token: 7d98b1da5bd0ce75e15273cf1ea264fe
+2025-04-04 01:03:27 - --------------------------------------------------
+2025-04-04 01:03:30 - Processando: GO FOREVER
+2025-04-04 01:03:47 - Informações encontradas para GO FOREVER:
+2025-04-04 01:03:47 - Sequencia: 1
+2025-04-04 01:03:47 - ID: 464486
+2025-04-04 01:03:47 - Codigo: 116161451
+2025-04-04 01:03:47 - Nome: GOFOREVER
+2025-04-04 01:03:47 - Nome_Fantasia: GO FOREVER
+2025-04-04 01:03:47 - CNPJ: 51.240.268/0001-31
+2025-04-04 01:03:47 - CEP: 06767-020
+2025-04-04 01:03:47 - Telefone: 11973319965
+2025-04-04 01:03:47 - Data_Validade: 01/04/2025
+2025-04-04 01:03:47 - Ultima_Atualizacao: 08/11/2023 - 09:14
+2025-04-04 01:03:47 - Token: d85512dcffbccf4692b2ed681bda0126
+2025-04-04 01:03:47 - --------------------------------------------------
+2025-04-04 01:03:50 - Processando: HARD FISHING
+2025-04-04 01:04:08 - Informações encontradas para HARD FISHING:
+2025-04-04 01:04:08 - Sequencia: 1
+2025-04-04 01:04:08 - ID: 39222
+2025-04-04 01:04:08 - Codigo: 840603759
+2025-04-04 01:04:08 - Nome: HARD FISHING
+2025-04-04 01:04:08 - Nome_Fantasia: HARD FISHING
+2025-04-04 01:04:08 - CNPJ: 38.143.607/0001-01
+2025-04-04 01:04:08 - CEP: 02217-020
+2025-04-04 01:04:08 - Telefone: 11 978052674
+2025-04-04 01:04:08 - Data_Validade: 03/04/2025
+2025-04-04 01:04:08 - Ultima_Atualizacao: 05/08/2022 - 16:56
+2025-04-04 01:04:08 - Token: ddc27397fa07c35a0048f970aed5f450
+2025-04-04 01:04:08 - --------------------------------------------------
+2025-04-04 01:04:11 - Processando: HG E
+2025-04-04 01:04:28 - Informações encontradas para HG E:
+2025-04-04 01:04:28 - Sequencia: 1
+2025-04-04 01:04:28 - ID: 16467
+2025-04-04 01:04:28 - Codigo: 28164021
+2025-04-04 01:04:28 - Nome: HG E-COMMERCE
+2025-04-04 01:04:28 - Nome_Fantasia: HG E-COMMERCE
+2025-04-04 01:04:28 - CNPJ: 42.687.548/0001-00
+2025-04-04 01:04:28 - CEP: 08420-420
+2025-04-04 01:04:28 - Telefone: 11947125293
+2025-04-04 01:04:28 - Data_Validade: 03/04/2025
+2025-04-04 01:04:28 - Ultima_Atualizacao: 24/08/2021 - 12:30
+2025-04-04 01:04:28 - Token: cf4576c993e40111e0467767633212c6
+2025-04-04 01:04:28 - --------------------------------------------------
+2025-04-04 01:04:31 - Processando: HG E-COMMERCE
+2025-04-04 01:04:48 - Informações encontradas para HG E-COMMERCE:
+2025-04-04 01:04:48 - Sequencia: 1
+2025-04-04 01:04:48 - ID: 16467
+2025-04-04 01:04:48 - Codigo: 28164021
+2025-04-04 01:04:48 - Nome: HG E-COMMERCE
+2025-04-04 01:04:48 - Nome_Fantasia: HG E-COMMERCE
+2025-04-04 01:04:48 - CNPJ: 42.687.548/0001-00
+2025-04-04 01:04:48 - CEP: 08420-420
+2025-04-04 01:04:48 - Telefone: 11947125293
+2025-04-04 01:04:48 - Data_Validade: 03/04/2025
+2025-04-04 01:04:48 - Ultima_Atualizacao: 24/08/2021 - 12:30
+2025-04-04 01:04:48 - Token: cf4576c993e40111e0467767633212c6
+2025-04-04 01:04:48 - --------------------------------------------------
+2025-04-04 01:04:51 - Processando: HM UNIFORMES 
+2025-04-04 01:05:08 - Informações encontradas para HM UNIFORMES :
+2025-04-04 01:05:08 - Sequencia: 1
+2025-04-04 01:05:08 - ID: 279212
+2025-04-04 01:05:08 - Codigo: 86957019
+2025-04-04 01:05:08 - Nome: HM UNIFORMES
+2025-04-04 01:05:08 - Nome_Fantasia: HM UNIFORMES
+2025-04-04 01:05:08 - CNPJ: 42.031.498/0001-08
+2025-04-04 01:05:08 - CEP: 04214-050
+2025-04-04 01:05:08 - Telefone: (11)2084-0967
+2025-04-04 01:05:08 - Data_Validade: 03/04/2025
+2025-04-04 01:05:08 - Ultima_Atualizacao: 18/10/2022 - 13:27
+2025-04-04 01:05:08 - Token: eb0bb9c08bb2bfd14f862ccbaa039542
+2025-04-04 01:05:08 - --------------------------------------------------
+2025-04-04 01:05:11 - Processando: IDEAL PRODUTOS ORTOPEDICOS
+2025-04-04 01:05:28 - Não foram encontradas informações para: IDEAL PRODUTOS ORTOPEDICOS
+2025-04-04 01:05:28 - --------------------------------------------------
+2025-04-04 01:05:31 - Processando: IMPERIO DAS TORNEIRAS 
+2025-04-04 01:05:48 - Informações encontradas para IMPERIO DAS TORNEIRAS :
+2025-04-04 01:05:48 - Sequencia: 1
+2025-04-04 01:05:48 - ID: 34229
+2025-04-04 01:05:48 - Codigo: 802321132
+2025-04-04 01:05:48 - Nome: IMPERIO DAS TORNEIRAS
+2025-04-04 01:05:48 - Nome_Fantasia: IMPERIO DAS TORNEIRAS
+2025-04-04 01:05:48 - CNPJ: 27.168.877/0001-42
+2025-04-04 01:05:48 - CEP: 03322-002
+2025-04-04 01:05:48 - Telefone: 11 2361-6731
+2025-04-04 01:05:48 - Data_Validade: 03/04/2025
+2025-04-04 01:05:48 - Ultima_Atualizacao: 25/05/2022 - 16:30
+2025-04-04 01:05:48 - Token: 513c3623c3cc798f9b7a2ec7e55207b3
+2025-04-04 01:05:48 - --------------------------------------------------
+2025-04-04 01:05:51 - Processando: INTERLIGHT ILUMINACAO
+2025-04-04 01:06:07 - Não foram encontradas informações para: INTERLIGHT ILUMINACAO
+2025-04-04 01:06:07 - --------------------------------------------------
+2025-04-04 01:06:10 - Processando: J.B.J EMBALAGENS E UTILIDADES DOMESTICAS LTDA
+2025-04-04 01:06:27 - Não foram encontradas informações para: J.B.J EMBALAGENS E UTILIDADES DOMESTICAS LTDA
+2025-04-04 01:06:27 - --------------------------------------------------
+2025-04-04 01:06:30 - Processando: J.B.J. EMBALAGENS E UTILIDADES DOMESTICAS LTDA
+2025-04-04 01:06:47 - Informações encontradas para J.B.J. EMBALAGENS E UTILIDADES DOMESTICAS LTDA:
+2025-04-04 01:06:47 - Sequencia: 1
+2025-04-04 01:06:47 - ID: 19382
+2025-04-04 01:06:47 - Codigo: MANUAL MANUALMENTE CADASTRADO
+2025-04-04 01:06:47 - Nome: J.B.J. EMBALAGENS E UTILIDADES DOMESTICAS LTDA
+2025-04-04 01:06:47 - Nome_Fantasia: J.B.J. EMBALAGENS E UTILIDADES DOMESTICAS LTDA
+2025-04-04 01:06:47 - CNPJ: 032.718.690-00
+2025-04-04 01:06:47 - CEP: 03032-020
+2025-04-04 01:06:47 - Telefone: 33134042
+2025-04-04 01:06:47 - Data_Validade: 03/04/2025
+2025-04-04 01:06:47 - Ultima_Atualizacao: 05/11/2021 - 11:05
+2025-04-04 01:06:47 - Token: d25dc0866e340410b63e3ca8c21f5458
+2025-04-04 01:06:47 - --------------------------------------------------
+2025-04-04 01:06:50 - Processando: KIPASTILHA REVESTIMENTOS ADESIVOS EPP
+2025-04-04 01:07:07 - Informações encontradas para KIPASTILHA REVESTIMENTOS ADESIVOS EPP:
+2025-04-04 01:07:07 - Sequencia: 1
+2025-04-04 01:07:07 - ID: 14006
+2025-04-04 01:07:07 - Codigo: 375225738
+2025-04-04 01:07:07 - Nome: KIPASTILHA
+2025-04-04 01:07:07 - Nome_Fantasia: KIPASTILHA REVESTIMENTOS ADESIVOS EPP
+2025-04-04 01:07:07 - CNPJ: 12.658.119/0001-35
+2025-04-04 01:07:07 - CEP: 09572-230
+2025-04-04 01:07:07 - Telefone: 1123760600
+2025-04-04 01:07:07 - Data_Validade: 03/04/2025
+2025-04-04 01:07:07 - Ultima_Atualizacao: 21/07/2021 - 21:26
+2025-04-04 01:07:07 - Token: 7fadab3a7cb566110ea8adb0aec242cb
+2025-04-04 01:07:07 - --------------------------------------------------
+2025-04-04 01:07:10 - Processando: KITONER SUPRIMENTOS 
+2025-04-04 01:07:27 - Informações encontradas para KITONER SUPRIMENTOS :
+2025-04-04 01:07:27 - Sequencia: 1
+2025-04-04 01:07:27 - ID: 18091
+2025-04-04 01:07:27 - Codigo: 312161197
+2025-04-04 01:07:27 - Nome: KITONER SUPRIMENTOS
+2025-04-04 01:07:27 - Nome_Fantasia: KITONER SUPRIMENTOS
+2025-04-04 01:07:27 - CNPJ: 22.522.605/0001-85
+2025-04-04 01:07:27 - CEP: 03171-050
+2025-04-04 01:07:27 - Telefone: 1198238-0916
+2025-04-04 01:07:27 - Data_Validade: 03/04/2025
+2025-04-04 01:07:27 - Ultima_Atualizacao: 30/09/2021 - 12:26
+2025-04-04 01:07:27 - Token: 1a7c51922041558f50e4a3f79f606ac8
+2025-04-04 01:07:27 - --------------------------------------------------
+2025-04-04 01:07:30 - Processando: LAMANIPRODUTOS - Silvia Nascimento.
+2025-04-04 01:07:47 - Não foram encontradas informações para: LAMANIPRODUTOS - Silvia Nascimento.
+2025-04-04 01:07:47 - --------------------------------------------------
+2025-04-04 01:07:50 - Processando: LE CHARMANT OUTLET
+2025-04-04 01:08:07 - Informações encontradas para LE CHARMANT OUTLET:
+2025-04-04 01:08:07 - Sequencia: 1
+2025-04-04 01:08:07 - ID: 532319
+2025-04-04 01:08:07 - Codigo: 451527738
+2025-04-04 01:08:07 - Nome: LE CHARMANT OUTLET
+2025-04-04 01:08:07 - Nome_Fantasia: LE CHARMANT OUTLET
+2025-04-04 01:08:07 - CNPJ: 31.497.880/0001-87
+2025-04-04 01:08:07 - CEP: 08665-500
+2025-04-04 01:08:07 - Telefone: (11) 98507-0321
+2025-04-04 01:08:07 - Data_Validade: 31/03/2025
+2025-04-04 01:08:07 - Ultima_Atualizacao: 17/04/2024 - 16:39
+2025-04-04 01:08:07 - Token: 3e0031a3ccd666a95958aaa79d99f53c
+2025-04-04 01:08:07 - --------------------------------------------------
+2025-04-04 01:08:10 - Processando: LEJU COMPRAS
+2025-04-04 01:08:27 - Informações encontradas para LEJU COMPRAS:
+2025-04-04 01:08:27 - Sequencia: 1
+2025-04-04 01:08:27 - ID: 20768
+2025-04-04 01:08:27 - Codigo: 291723482
+2025-04-04 01:08:27 - Nome: LEJU COMPRAS
+2025-04-04 01:08:27 - Nome_Fantasia: LEJU COMPRAS
+2025-04-04 01:08:27 - CNPJ: 44.203.258/0001-60
+2025-04-04 01:08:27 - CEP: 01229-001
+2025-04-04 01:08:27 - Telefone: 11 97416-6999
+2025-04-04 01:08:27 - Data_Validade: 31/03/2025
+2025-04-04 01:08:27 - Ultima_Atualizacao: 30/11/2021 - 18:55
+2025-04-04 01:08:27 - Token: b8a9b860be6933015045121df0233cb1
+2025-04-04 01:08:27 - --------------------------------------------------
+2025-04-04 01:08:30 - Processando: LELYS CLOTHES LTDA
+2025-04-04 01:08:47 - Informações encontradas para LELYS CLOTHES LTDA:
+2025-04-04 01:08:47 - Sequencia: 1
+2025-04-04 01:08:47 - ID: 802440
+2025-04-04 01:08:47 - Codigo: LELYS CLOTHES LTDA
+2025-04-04 01:08:47 - Nome: LELYS CLOTHES LTDA
+2025-04-04 01:08:47 - Nome_Fantasia: LELYS CLOTHES LTDA
+2025-04-04 01:08:47 - CNPJ: 47.656.788/0001-52
+2025-04-04 01:08:47 - CEP: 32450-000
+2025-04-04 01:08:47 - Telefone: 31988494500
+2025-04-04 01:08:47 - Data_Validade: 27/02/2025
+2025-04-04 01:08:47 - Ultima_Atualizacao: 20/08/2024 - 13:21
+2025-04-04 01:08:47 - Token: a1167529fcb651171be4a0b23ee5064e
+2025-04-04 01:08:47 - --------------------------------------------------
+2025-04-04 01:08:50 - Processando: LIFE TOYS 
+2025-04-04 01:09:07 - Informações encontradas para LIFE TOYS :
+2025-04-04 01:09:07 - Sequencia: 1
+2025-04-04 01:09:07 - ID: 317106
+2025-04-04 01:09:07 - Codigo: 594157656
+2025-04-04 01:09:07 - Nome: LIFE TOYS #NFJ3
+2025-04-04 01:09:07 - Nome_Fantasia: LIFE TOYS
+2025-04-04 01:09:07 - CNPJ: 37.762.946/0001-03
+2025-04-04 01:09:07 - CEP: 02835-040
+2025-04-04 01:09:07 - Telefone: 11994871858
+2025-04-04 01:09:07 - Data_Validade: 03/04/2025
+2025-04-04 01:09:07 - Ultima_Atualizacao: 09/12/2022 - 09:23
+2025-04-04 01:09:07 - Token: 73f9e4d769cd7fed91209a89aad76b0e
+2025-04-04 01:09:07 - --------------------------------------------------
+2025-04-04 01:09:10 - Processando: LLM INFORMATICA COMERCIOS
+2025-04-04 01:09:27 - Informações encontradas para LLM INFORMATICA COMERCIOS:
+2025-04-04 01:09:27 - Sequencia: 1
+2025-04-04 01:09:27 - ID: 319267
+2025-04-04 01:09:27 - Codigo: 1114946402
+2025-04-04 01:09:27 - Nome: LLM INFORMATICA COMERCIOS
+2025-04-04 01:09:27 - Nome_Fantasia: LLM INFORMATICA COMERCIOS
+2025-04-04 01:09:27 - CNPJ: 46.159.765/0001-70
+2025-04-04 01:09:27 - CEP: 02472-060
+2025-04-04 01:09:27 - Telefone: 11 99693-0689
+2025-04-04 01:09:27 - Data_Validade: 31/03/2025
+2025-04-04 01:09:27 - Ultima_Atualizacao: 23/12/2022 - 11:17
+2025-04-04 01:09:27 - Token: b3dba31bcf2fe6e8d67beb4a74c7822d
+2025-04-04 01:09:27 - --------------------------------------------------
+2025-04-04 01:09:30 - Processando: LOJA BARBEIRO DE SUCESSO
+2025-04-04 01:09:47 - Informações encontradas para LOJA BARBEIRO DE SUCESSO:
+2025-04-04 01:09:47 - Sequencia: 1
+2025-04-04 01:09:47 - ID: 38371
+2025-04-04 01:09:47 - Codigo: 803146861
+2025-04-04 01:09:47 - Nome: LOJA BARBEIRO DE SUCESSO
+2025-04-04 01:09:47 - Nome_Fantasia: LOJA BARBEIRO DE SUCESSO
+2025-04-04 01:09:47 - CNPJ: 42.801.650/0001-86
+2025-04-04 01:09:47 - CEP: 04811-050
+2025-04-04 01:09:47 - Telefone: 11 987512347
+2025-04-04 01:09:47 - Data_Validade: 18/03/2025
+2025-04-04 01:09:47 - Ultima_Atualizacao: 26/07/2022 - 16:14
+2025-04-04 01:09:47 - Token: 661e7548c8ddb6e24de04d537707fd21
+2025-04-04 01:09:47 - --------------------------------------------------
+2025-04-04 01:09:50 - Processando: LOJA DO COMPETIDOR
+2025-04-04 01:10:06 - Informações encontradas para LOJA DO COMPETIDOR:
+2025-04-04 01:10:06 - Sequencia: 1
+2025-04-04 01:10:06 - ID: 319135
+2025-04-04 01:10:06 - Codigo: 178416308
+2025-04-04 01:10:06 - Nome: LOJA DO COMPETIDOR
+2025-04-04 01:10:06 - Nome_Fantasia: LOJA DO COMPETIDOR
+2025-04-04 01:10:06 - CNPJ: 13.812.253/0001-01
+2025-04-04 01:10:06 - CEP: 31170-480
+2025-04-04 01:10:06 - Telefone: 31-2510-4797
+2025-04-04 01:10:06 - Data_Validade: 03/04/2025
+2025-04-04 01:10:06 - Ultima_Atualizacao: 21/12/2022 - 14:16
+2025-04-04 01:10:06 - Token: 0e076b7374c6e55eb23311adfcf8c968
+2025-04-04 01:10:06 - --------------------------------------------------
+2025-04-04 01:10:09 - Processando: LOJA DO PAPEL 2
+2025-04-04 01:10:26 - Informações encontradas para LOJA DO PAPEL 2:
+2025-04-04 01:10:26 - Sequencia: 1
+2025-04-04 01:10:26 - ID: 37426
+2025-04-04 01:10:26 - Codigo: 39040
+2025-04-04 01:10:26 - Nome: LOJA DO PAPEL.
+2025-04-04 01:10:26 - Nome_Fantasia: LOJA DO PAPEL 2
+2025-04-04 01:10:26 - CNPJ: 07.934.732/0001-06
+2025-04-04 01:10:26 - CEP: 09726-411
+2025-04-04 01:10:26 - Telefone: 11 99325-2733
+2025-04-04 01:10:26 - Data_Validade: 06/02/2025
+2025-04-04 01:10:26 - Ultima_Atualizacao: 08/07/2022 - 09:38
+2025-04-04 01:10:26 - Token: 8f82ad5fb8edfb5633e7920769cc4dfc
+2025-04-04 01:10:26 - --------------------------------------------------
+2025-04-04 01:10:29 - Processando: LOJA MIX
+2025-04-04 01:10:46 - Informações encontradas para LOJA MIX:
+2025-04-04 01:10:46 - Sequencia: 1
+2025-04-04 01:10:46 - ID: 91005
+2025-04-04 01:10:46 - Codigo: 592416569
+2025-04-04 01:10:46 - Nome: LOJA MIX
+2025-04-04 01:10:46 - Nome_Fantasia: LOJA MIX
+2025-04-04 01:10:46 - CNPJ: 37.466.905/0001-61
+2025-04-04 01:10:46 - CEP: 33115-040
+2025-04-04 01:10:46 - Telefone: 31 98267-6755
+2025-04-04 01:10:46 - Data_Validade: 10/03/2025
+2025-04-04 01:10:46 - Ultima_Atualizacao: 08/09/2022 - 16:24
+2025-04-04 01:10:46 - Token: cc849b0370007103f7dc5a877dc4f4f3
+2025-04-04 01:10:46 - --------------------------------------------------
+2025-04-04 01:10:49 - Processando: LOJAS RENASCER
+2025-04-04 01:11:06 - Informações encontradas para LOJAS RENASCER:
+2025-04-04 01:11:06 - Sequencia: 1
+2025-04-04 01:11:06 - ID: 463411
+2025-04-04 01:11:06 - Codigo: LOJAS RENASCER
+2025-04-04 01:11:06 - Nome: LOJAS RENASCER
+2025-04-04 01:11:06 - Nome_Fantasia: LOJAS RENASCER
+2025-04-04 01:11:06 - CNPJ: 34.498.262/0001-40
+2025-04-04 01:11:06 - CEP: 02010-600
+2025-04-04 01:11:06 - Telefone: (11) 93232-7542
+2025-04-04 01:11:06 - Data_Validade: 03/04/2025
+2025-04-04 01:11:06 - Ultima_Atualizacao: 03/11/2023 - 09:07
+2025-04-04 01:11:06 - Token: e761e2bd57d6da76b24af22aa0b17406
+2025-04-04 01:11:06 - --------------------------------------------------
+2025-04-04 01:11:09 - Processando: LS STORE 
+2025-04-04 01:11:26 - Informações encontradas para LS STORE :
+2025-04-04 01:11:26 - Sequencia: 1
+2025-04-04 01:11:26 - ID: 39979
+2025-04-04 01:11:26 - Codigo: 26840328
+2025-04-04 01:11:26 - Nome: HENKELS STORE
+2025-04-04 01:11:26 - Nome_Fantasia: HENKELS STORE
+2025-04-04 01:11:26 - CNPJ: 282.148.418-60
+2025-04-04 01:11:26 - CEP: 06707-100
+2025-04-04 01:11:26 - Telefone: 1198077-5540
+2025-04-04 01:11:26 - Data_Validade: 19/11/2024
+2025-04-04 01:11:26 - Ultima_Atualizacao: 10/08/2022 - 17:18
+2025-04-04 01:11:26 - Token: e05b65209476de0aea6569ccc664bde2
+2025-04-04 01:11:26 - --------------------------------------------------
+2025-04-04 01:11:29 - Processando: LUNA CONFECCOES
+2025-04-04 01:11:46 - Não foram encontradas informações para: LUNA CONFECCOES
+2025-04-04 01:11:46 - --------------------------------------------------
+2025-04-04 01:11:49 - Processando: MAB AIRSOFT
+2025-04-04 01:12:06 - Informações encontradas para MAB AIRSOFT:
+2025-04-04 01:12:06 - Sequencia: 1
+2025-04-04 01:12:06 - ID: 15817
+2025-04-04 01:12:06 - Codigo: 149112576
+2025-04-04 01:12:06 - Nome: MAB AIRSOFT
+2025-04-04 01:12:06 - Nome_Fantasia: MAB AIRSOFT
+2025-04-04 01:12:06 - CNPJ: 18.076.518/0001-74
+2025-04-04 01:12:06 - CEP: 03164-200
+2025-04-04 01:12:06 - Telefone: 11 29241907
+2025-04-04 01:12:06 - Data_Validade: 03/04/2025
+2025-04-04 01:12:06 - Ultima_Atualizacao: 10/08/2021 - 14:02
+2025-04-04 01:12:06 - Token: 70fa7564529f2a7c189aabdd8933b87b
+2025-04-04 01:12:06 - --------------------------------------------------
+2025-04-04 01:12:09 - Processando: MAJORIS JOIAS 
+2025-04-04 01:12:26 - Não foram encontradas informações para: MAJORIS JOIAS 
+2025-04-04 01:12:26 - --------------------------------------------------
+2025-04-04 01:12:29 - Processando: MARIANA CARDOSO
+2025-04-04 01:12:46 - Informações encontradas para MARIANA CARDOSO:
+2025-04-04 01:12:46 - Sequencia: 1
+2025-04-04 01:12:46 - ID: 664812
+2025-04-04 01:12:46 - Codigo: MARIANA CARDOSO
+2025-04-04 01:12:46 - Nome: MARIANA CARDOSO
+2025-04-04 01:12:46 - Nome_Fantasia: MARIANA CARDOSO
+2025-04-04 01:12:46 - CNPJ: 33.275.957/0001-08
+2025-04-04 01:12:46 - CEP: 09030-325
+2025-04-04 01:12:46 - Telefone: 11947000896
+2025-04-04 01:12:46 - Data_Validade: 03/04/2025
+2025-04-04 01:12:46 - Ultima_Atualizacao: 27/06/2024 - 12:43
+2025-04-04 01:12:46 - Token: f8c0992f409767c36a381d1daa5fd65e
+2025-04-04 01:12:46 - --------------------------------------------------
+2025-04-04 01:12:49 - Processando: MC IMPORTS 
+2025-04-04 01:13:06 - Informações encontradas para MC IMPORTS :
+2025-04-04 01:13:06 - Sequencia: 1
+2025-04-04 01:13:06 - ID: 440600
+2025-04-04 01:13:06 - Codigo: 639190649
+2025-04-04 01:13:06 - Nome: MC IMPORTS
+2025-04-04 01:13:06 - Nome_Fantasia: MC IMPORTS
+2025-04-04 01:13:06 - CNPJ: 38.186.174/0001-63
+2025-04-04 01:13:06 - CEP: 04763-001
+2025-04-04 01:13:06 - Telefone: 994126644
+2025-04-04 01:13:06 - Data_Validade: 02/04/2025
+2025-04-04 01:13:06 - Ultima_Atualizacao: 18/05/2023 - 15:44
+2025-04-04 01:13:06 - Token: d6ef7d0c13711befe20b152cac614589
+2025-04-04 01:13:06 - --------------------------------------------------
+2025-04-04 01:13:09 - Processando: MECA DOS JOGOS
+2025-04-04 01:13:25 - Informações encontradas para MECA DOS JOGOS:
+2025-04-04 01:13:25 - Sequencia: 1
+2025-04-04 01:13:25 - ID: 459397
+2025-04-04 01:13:25 - Codigo: 1425353725
+2025-04-04 01:13:25 - Nome: MECA DOS JOGOS
+2025-04-04 01:13:25 - Nome_Fantasia: MECA DOS JOGOS
+2025-04-04 01:13:25 - CNPJ: 48.415.081/0001-17
+2025-04-04 01:13:25 - CEP: 02851-080
+2025-04-04 01:13:25 - Telefone: (11) 94932-6543
+2025-04-04 01:13:25 - Data_Validade: 03/04/2025
+2025-04-04 01:13:25 - Ultima_Atualizacao: 10/10/2023 - 15:01
+2025-04-04 01:13:25 - Token: ad1576d512d4f85456e408cab594366a
+2025-04-04 01:13:25 - --------------------------------------------------
+2025-04-04 01:13:28 - Processando: MERCADO DAS UNHAS LTDA
+2025-04-04 01:13:45 - Informações encontradas para MERCADO DAS UNHAS LTDA:
+2025-04-04 01:13:45 - Sequencia: 1
+2025-04-04 01:13:45 - ID: 36098
+2025-04-04 01:13:45 - Codigo: 703878318
+2025-04-04 01:13:45 - Nome: MERCADO DAS UNHAS LTDA
+2025-04-04 01:13:45 - Nome_Fantasia: MERCADO DAS UNHAS LTDA
+2025-04-04 01:13:45 - CNPJ: 40.421.528/0001-59
+2025-04-04 01:13:45 - CEP: 32600-324
+2025-04-04 01:13:45 - Telefone: 31 99680-9368
+2025-04-04 01:13:45 - Data_Validade: 03/04/2025
+2025-04-04 01:13:45 - Ultima_Atualizacao: 21/06/2022 - 16:48
+2025-04-04 01:13:45 - Token: 8218b0670fcc81a7346c55a2887ce786
+2025-04-04 01:13:45 - --------------------------------------------------
+2025-04-04 01:13:48 - Processando: MERCADO DAS UNHAS LTDA 
+2025-04-04 01:14:05 - Informações encontradas para MERCADO DAS UNHAS LTDA :
+2025-04-04 01:14:05 - Sequencia: 1
+2025-04-04 01:14:05 - ID: 36098
+2025-04-04 01:14:05 - Codigo: 703878318
+2025-04-04 01:14:05 - Nome: MERCADO DAS UNHAS LTDA
+2025-04-04 01:14:05 - Nome_Fantasia: MERCADO DAS UNHAS LTDA
+2025-04-04 01:14:05 - CNPJ: 40.421.528/0001-59
+2025-04-04 01:14:05 - CEP: 32600-324
+2025-04-04 01:14:05 - Telefone: 31 99680-9368
+2025-04-04 01:14:05 - Data_Validade: 03/04/2025
+2025-04-04 01:14:05 - Ultima_Atualizacao: 21/06/2022 - 16:48
+2025-04-04 01:14:05 - Token: 8218b0670fcc81a7346c55a2887ce786
+2025-04-04 01:14:05 - --------------------------------------------------
+2025-04-04 01:14:08 - Processando: MINAS MIDIAS 
+2025-04-04 01:14:26 - Informações encontradas para MINAS MIDIAS :
+2025-04-04 01:14:26 - Sequencia: 1
+2025-04-04 01:14:26 - ID: 35336
+2025-04-04 01:14:26 - Codigo: 29931546
+2025-04-04 01:14:26 - Nome: MINAS MIDIAS
+2025-04-04 01:14:26 - Nome_Fantasia: MINAS MIDIAS
+2025-04-04 01:14:26 - CNPJ: 22.030.322/0001-16
+2025-04-04 01:14:26 - CEP: 30411-120
+2025-04-04 01:14:26 - Telefone: 31 98301-7040
+2025-04-04 01:14:26 - Data_Validade: 03/04/2025
+2025-04-04 01:14:26 - Ultima_Atualizacao: 09/06/2022 - 17:26
+2025-04-04 01:14:26 - Token: 86ff56bca8afc736f054cf29d9d504f1
+2025-04-04 01:14:26 - --------------------------------------------------
+2025-04-04 01:14:29 - Processando: MOMIS PET
+2025-04-04 01:14:46 - Informações encontradas para MOMIS PET:
+2025-04-04 01:14:46 - Sequencia: 1
+2025-04-04 01:14:46 - ID: 31502
+2025-04-04 01:14:46 - Codigo: AVULSO MOMIS
+2025-04-04 01:14:46 - Nome: MOMIS PETIT
+2025-04-04 01:14:46 - Nome_Fantasia: MOMIS PETIT
+2025-04-04 01:14:46 - CNPJ: 44.719.585/0001-70
+2025-04-04 01:14:46 - CEP: 01217-010
+2025-04-04 01:14:46 - Telefone: 11 98966-8777
+2025-04-04 01:14:46 - Data_Validade: 03/04/2025
+2025-04-04 01:14:46 - Ultima_Atualizacao: 08/04/2022 - 11:24
+2025-04-04 01:14:46 - Token: baf8e3d5689ee66e34b1e6778c76024c
+2025-04-04 01:14:46 - --------------------------------------------------
+2025-04-04 01:14:49 - Processando: MOMIS PETIT
+2025-04-04 01:15:06 - Informações encontradas para MOMIS PETIT:
+2025-04-04 01:15:06 - Sequencia: 1
+2025-04-04 01:15:06 - ID: 31502
+2025-04-04 01:15:06 - Codigo: AVULSO MOMIS
+2025-04-04 01:15:06 - Nome: MOMIS PETIT
+2025-04-04 01:15:06 - Nome_Fantasia: MOMIS PETIT
+2025-04-04 01:15:06 - CNPJ: 44.719.585/0001-70
+2025-04-04 01:15:06 - CEP: 01217-010
+2025-04-04 01:15:06 - Telefone: 11 98966-8777
+2025-04-04 01:15:06 - Data_Validade: 03/04/2025
+2025-04-04 01:15:06 - Ultima_Atualizacao: 08/04/2022 - 11:24
+2025-04-04 01:15:06 - Token: baf8e3d5689ee66e34b1e6778c76024c
+2025-04-04 01:15:06 - --------------------------------------------------
+2025-04-04 01:15:09 - Processando: NA MEDIDA
+2025-04-04 01:15:26 - Informações encontradas para NA MEDIDA:
+2025-04-04 01:15:26 - Sequencia: 1
+2025-04-04 01:15:26 - ID: 507002
+2025-04-04 01:15:26 - Codigo: 1696275308
+2025-04-04 01:15:26 - Nome: NA MEDIDA
+2025-04-04 01:15:26 - Nome_Fantasia: NA MEDIDA
+2025-04-04 01:15:26 - CNPJ: 53.721.565/0001-24
+2025-04-04 01:15:26 - CEP: 02180-050
+2025-04-04 01:15:26 - Telefone: (11) 99375-9656
+2025-04-04 01:15:26 - Data_Validade: 03/04/2025
+2025-04-04 01:15:26 - Ultima_Atualizacao: 08/03/2024 - 10:12
+2025-04-04 01:15:26 - Token: 0bf5ff6945841287a390ef52e0a8d5e6
+2025-04-04 01:15:26 - --------------------------------------------------
+2025-04-04 01:15:29 - Processando: NETCAIXAS
+2025-04-04 01:15:46 - Informações encontradas para NETCAIXAS:
+2025-04-04 01:15:46 - Sequencia: 1
+2025-04-04 01:15:46 - ID: 440322
+2025-04-04 01:15:46 - Codigo: 1036173769
+2025-04-04 01:15:46 - Nome: MULTICAIXASNET
+2025-04-04 01:15:46 - Nome_Fantasia: NETCAIXAS
+2025-04-04 01:15:46 - CNPJ: 37.325.797/0001-07
+2025-04-04 01:15:46 - CEP: 03210-000
+2025-04-04 01:15:46 - Telefone: 11 2917-7339
+2025-04-04 01:15:46 - Data_Validade: 28/02/2025
+2025-04-04 01:15:46 - Ultima_Atualizacao: 17/05/2023 - 15:48
+2025-04-04 01:15:46 - Token: c696a2907a8607b65e2ebb92a052f583
+2025-04-04 01:15:46 - --------------------------------------------------
+2025-04-04 01:15:49 - Processando: NMZ COMERCIO IMPORTACAO E EXPORTACAO DE PRODUTOS NATURAIS LTDA
+2025-04-04 01:16:06 - Não foram encontradas informações para: NMZ COMERCIO IMPORTACAO E EXPORTACAO DE PRODUTOS NATURAIS LTDA
+2025-04-04 01:16:06 - --------------------------------------------------
+2025-04-04 01:16:09 - Processando: NOSSAS TSHIRT
+2025-04-04 01:16:26 - Informações encontradas para NOSSAS TSHIRT:
+2025-04-04 01:16:26 - Sequencia: 1
+2025-04-04 01:16:26 - ID: 491969
+2025-04-04 01:16:26 - Codigo: 463556037
+2025-04-04 01:16:26 - Nome: NOSSAS TSHIRT
+2025-04-04 01:16:26 - Nome_Fantasia: NOSSAS TSHIRT
+2025-04-04 01:16:26 - CNPJ: 29.027.603/0001-69
+2025-04-04 01:16:26 - CEP: 03017-000
+2025-04-04 01:16:26 - Telefone: (11) 99276-8920
+2025-04-04 01:16:26 - Data_Validade: 03/04/2025
+2025-04-04 01:16:26 - Ultima_Atualizacao: 26/01/2024 - 12:04
+2025-04-04 01:16:26 - Token: 8d566482d8d5afbd13b56e32829d412b
+2025-04-04 01:16:26 - --------------------------------------------------
+2025-04-04 01:16:29 - Processando: NOVA MILENIO
+2025-04-04 01:16:47 - Informações encontradas para NOVA MILENIO:
+2025-04-04 01:16:47 - Sequencia: 1
+2025-04-04 01:16:47 - ID: 28700
+2025-04-04 01:16:47 - Codigo: 535658433
+2025-04-04 01:16:47 - Nome: NOVA MILENIO
+2025-04-04 01:16:47 - Nome_Fantasia: NOVA MILENIO
+2025-04-04 01:16:47 - CNPJ: 04.192.066/0001-81
+2025-04-04 01:16:47 - CEP: 03411-130
+2025-04-04 01:16:47 - Telefone: 11 99448-4301
+2025-04-04 01:16:47 - Data_Validade: 03/04/2025
+2025-04-04 01:16:47 - Ultima_Atualizacao: 04/03/2022 - 15:22
+2025-04-04 01:16:47 - Token: 2b0a489eb6bfa1ad8e2246e1212701b3
+2025-04-04 01:16:47 - --------------------------------------------------
+2025-04-04 01:16:50 - Processando: O ACUSTICO
+2025-04-04 01:17:07 - Não foram encontradas informações para: O ACUSTICO
+2025-04-04 01:17:07 - --------------------------------------------------
+2025-04-04 01:17:10 - Processando: PAPELNET ONLINE 
+2025-04-04 01:17:27 - Informações encontradas para PAPELNET ONLINE :
+2025-04-04 01:17:27 - Sequencia: 1
+2025-04-04 01:17:27 - ID: 448377
+2025-04-04 01:17:27 - Codigo: 144382371
+2025-04-04 01:17:27 - Nome: PAPELNET ONLINE
+2025-04-04 01:17:27 - Nome_Fantasia: PAPELNET ONLINE
+2025-04-04 01:17:27 - CNPJ: 11.129.281/0001-01
+2025-04-04 01:17:27 - CEP: 09770-420
+2025-04-04 01:17:27 - Telefone: 948463879
+2025-04-04 01:17:27 - Data_Validade: 03/04/2025
+2025-04-04 01:17:27 - Ultima_Atualizacao: 26/06/2023 - 08:56
+2025-04-04 01:17:27 - Token: a6ea342aee3483cfd038b192f558708e
+2025-04-04 01:17:27 - --------------------------------------------------
+2025-04-04 01:17:30 - Processando: PARIS ROUPAS E ACESSORIOS LTDA
+2025-04-04 01:17:47 - Informações encontradas para PARIS ROUPAS E ACESSORIOS LTDA:
+2025-04-04 01:17:47 - Sequencia: 1
+2025-04-04 01:17:47 - ID: 615282
+2025-04-04 01:17:47 - Codigo: PARIS ROUPAS E ACESSORIOS
+2025-04-04 01:17:47 - Nome: PARIS ROUPAS E ACESSORIOS LTDA
+2025-04-04 01:17:47 - Nome_Fantasia: PARIS ROUPAS E ACESSORIOS LTDA
+2025-04-04 01:17:47 - CNPJ: 41.009.627/0001-90
+2025-04-04 01:17:47 - CEP: 06401-147
+2025-04-04 01:17:47 - Telefone: 11 995994092
+2025-04-04 01:17:47 - Data_Validade: 03/04/2025
+2025-04-04 01:17:47 - Ultima_Atualizacao: 11/06/2024 - 11:24
+2025-04-04 01:17:47 - Token: 28031d88efa1d222a2bb298f7565d8fa
+2025-04-04 01:17:47 - --------------------------------------------------
+2025-04-04 01:17:50 - Processando: PATMOS MODA EVANGELICA
+2025-04-04 01:18:07 - Não foram encontradas informações para: PATMOS MODA EVANGELICA
+2025-04-04 01:18:07 - --------------------------------------------------
+2025-04-04 01:18:10 - Processando: PETIT PETIT
+2025-04-04 01:18:26 - Informações encontradas para PETIT PETIT:
+2025-04-04 01:18:26 - Sequencia: 1
+2025-04-04 01:18:26 - ID: 31139
+2025-04-04 01:18:26 - Codigo: 192789309
+2025-04-04 01:18:26 - Nome: PETIT PETIT
+2025-04-04 01:18:26 - Nome_Fantasia: PETIT PETIT
+2025-04-04 01:18:26 - CNPJ: 25.401.294/0001-94
+2025-04-04 01:18:26 - CEP: 03664-000
+2025-04-04 01:18:26 - Telefone: 11 98143-2923
+2025-04-04 01:18:26 - Data_Validade: 25/03/2025
+2025-04-04 01:18:26 - Ultima_Atualizacao: 01/04/2022 - 12:01
+2025-04-04 01:18:26 - Token: ce40044b60fe626e17e05c3252d09b01
+2025-04-04 01:18:26 - --------------------------------------------------
+2025-04-04 01:18:29 - Processando: PJ COMERCIO DE COSMETICOS LTDA 
+2025-04-04 01:18:46 - Não foram encontradas informações para: PJ COMERCIO DE COSMETICOS LTDA 
+2025-04-04 01:18:46 - --------------------------------------------------
+2025-04-04 01:18:49 - Processando: PONTO X TECIDOS
+2025-04-04 01:19:06 - Informações encontradas para PONTO X TECIDOS:
+2025-04-04 01:19:06 - Sequencia: 1
+2025-04-04 01:19:06 - ID: 321867
+2025-04-04 01:19:06 - Codigo: 1122637827
+2025-04-04 01:19:06 - Nome: PONTO X TECIDOS
+2025-04-04 01:19:06 - Nome_Fantasia: PONTO X TECIDOS
+2025-04-04 01:19:06 - CNPJ: 36.414.095/0001-37
+2025-04-04 01:19:06 - CEP: 03025-001
+2025-04-04 01:19:06 - Telefone: 1122910030
+2025-04-04 01:19:06 - Data_Validade: 03/04/2025
+2025-04-04 01:19:06 - Ultima_Atualizacao: 16/01/2023 - 11:56
+2025-04-04 01:19:06 - Token: 09b000b477d1493238dd42a175995cda
+2025-04-04 01:19:06 - --------------------------------------------------
+2025-04-04 01:19:09 - Processando: PONTUAL DECOR
+2025-04-04 01:19:26 - Informações encontradas para PONTUAL DECOR:
+2025-04-04 01:19:26 - Sequencia: 1
+2025-04-04 01:19:26 - ID: 505757
+2025-04-04 01:19:26 - Codigo: PONTUAL DECOR
+2025-04-04 01:19:26 - Nome: PONTUAL DECOR
+2025-04-04 01:19:26 - Nome_Fantasia: PONTUAL DECOR
+2025-04-04 01:19:26 - CNPJ: 09.241.509/0001-09
+2025-04-04 01:19:26 - CEP: 02801-000
+2025-04-04 01:19:26 - Telefone: (11) 96049-1821
+2025-04-04 01:19:26 - Data_Validade: 31/03/2025
+2025-04-04 01:19:26 - Ultima_Atualizacao: 06/03/2024 - 11:04
+2025-04-04 01:19:26 - Token: e5421e8db41e577f01312ed537e6566c
+2025-04-04 01:19:26 - --------------------------------------------------
+2025-04-04 01:19:29 - Processando: PRS JEANS
+2025-04-04 01:19:47 - Informações encontradas para PRS JEANS:
+2025-04-04 01:19:47 - Sequencia: 1
+2025-04-04 01:19:47 - ID: 465387
+2025-04-04 01:19:47 - Codigo: 1135957683
+2025-04-04 01:19:47 - Nome: PRS JEANS
+2025-04-04 01:19:47 - Nome_Fantasia: PRS JEANS
+2025-04-04 01:19:47 - CNPJ: 08.040.276/0005-39
+2025-04-04 01:19:47 - CEP: 03013-011
+2025-04-04 01:19:47 - Telefone: 11999225272
+2025-04-04 01:19:47 - Data_Validade: 17/03/2025
+2025-04-04 01:19:47 - Ultima_Atualizacao: 10/11/2023 - 13:52
+2025-04-04 01:19:47 - Token: 861de9dac57edd0718f88cb8d061773a
+2025-04-04 01:19:47 - --------------------------------------------------
+2025-04-04 01:19:50 - Processando: QUALIMOBILE
+2025-04-04 01:20:07 - Informações encontradas para QUALIMOBILE:
+2025-04-04 01:20:07 - Sequencia: 1
+2025-04-04 01:20:07 - ID: 26241
+2025-04-04 01:20:07 - Codigo: 538093336
+2025-04-04 01:20:07 - Nome: QUALIMOBILE #NFJ3
+2025-04-04 01:20:07 - Nome_Fantasia: QUALIMOBILE
+2025-04-04 01:20:07 - CNPJ: 33.073.098/0001-66
+2025-04-04 01:20:07 - CEP: 07054-070
+2025-04-04 01:20:07 - Telefone: 11 2414-2266
+2025-04-04 01:20:07 - Data_Validade: 03/04/2025
+2025-04-04 01:20:07 - Ultima_Atualizacao: 16/02/2022 - 15:47
+2025-04-04 01:20:07 - Token: d68395a5c7c2d3fdd3a53b361f5c9f92
+2025-04-04 01:20:07 - --------------------------------------------------
+2025-04-04 01:20:10 - Processando: QUANDO VIRAMOS PAIS 
+2025-04-04 01:20:27 - Informações encontradas para QUANDO VIRAMOS PAIS :
+2025-04-04 01:20:27 - Sequencia: 1
+2025-04-04 01:20:27 - ID: 38374
+2025-04-04 01:20:27 - Codigo: 69087982
+2025-04-04 01:20:27 - Nome: QUANDO VIRAMOS PAIS
+2025-04-04 01:20:27 - Nome_Fantasia: QUANDO VIRAMOS PAIS
+2025-04-04 01:20:27 - CNPJ: 24.240.037/0001-55
+2025-04-04 01:20:27 - CEP: 09623-060
+2025-04-04 01:20:27 - Telefone: (11) 99236-7779
+2025-04-04 01:20:27 - Data_Validade: 02/04/2025
+2025-04-04 01:20:27 - Ultima_Atualizacao: 26/07/2022 - 16:34
+2025-04-04 01:20:27 - Token: eae02dbc0b9afc55c79a232c61b37a47
+2025-04-04 01:20:27 - --------------------------------------------------
+2025-04-04 01:20:30 - Processando: QUILI AQUARIOS 
+2025-04-04 01:20:47 - Não foram encontradas informações para: QUILI AQUARIOS 
+2025-04-04 01:20:47 - --------------------------------------------------
+2025-04-04 01:20:50 - Processando: REL MODAS
+2025-04-04 01:21:07 - Informações encontradas para REL MODAS:
+2025-04-04 01:21:07 - Sequencia: 1
+2025-04-04 01:21:07 - ID: 666768
+2025-04-04 01:21:07 - Codigo: REL MODAS
+2025-04-04 01:21:07 - Nome: REL MODAS
+2025-04-04 01:21:07 - Nome_Fantasia: REL MODAS
+2025-04-04 01:21:07 - CNPJ: 30.813.722/0001-26
+2025-04-04 01:21:07 - CEP: 03023-020
+2025-04-04 01:21:07 - Telefone: 11991336380
+2025-04-04 01:21:07 - Data_Validade: 07/03/2025
+2025-04-04 01:21:07 - Ultima_Atualizacao: 28/06/2024 - 11:06
+2025-04-04 01:21:07 - Token: 772cf19b0661e7d755fc7f246724a190
+2025-04-04 01:21:07 - --------------------------------------------------
+2025-04-04 01:21:10 - Processando: RF GORY
+2025-04-04 01:21:27 - Informações encontradas para RF GORY:
+2025-04-04 01:21:27 - Sequencia: 1
+2025-04-04 01:21:27 - ID: 323383
+2025-04-04 01:21:27 - Codigo: RF GORY
+2025-04-04 01:21:27 - Nome: RF GORY #NFJ3
+2025-04-04 01:21:27 - Nome_Fantasia: RF GORY
+2025-04-04 01:21:27 - CNPJ: 10.372.062/0001-88
+2025-04-04 01:21:27 - CEP: 03827-000
+2025-04-04 01:21:27 - Telefone: 11974999918
+2025-04-04 01:21:27 - Data_Validade: 03/04/2025
+2025-04-04 01:21:27 - Ultima_Atualizacao: 27/01/2023 - 10:15
+2025-04-04 01:21:27 - Token: 674ce0a31c87f9ee5d4578a5f4d5e6ea
+2025-04-04 01:21:27 - --------------------------------------------------
+2025-04-04 01:21:30 - Processando: ROTIBRIL
+2025-04-04 01:21:47 - Informações encontradas para ROTIBRIL:
+2025-04-04 01:21:47 - Sequencia: 1
+2025-04-04 01:21:47 - ID: 35954
+2025-04-04 01:21:47 - Codigo: ROTIBRIL
+2025-04-04 01:21:47 - Nome: ROTIBRIL
+2025-04-04 01:21:47 - Nome_Fantasia: ROTIBRIL
+2025-04-04 01:21:47 - CNPJ: 06.228.954/0001-32
+2025-04-04 01:21:47 - CEP: 30411-470
+2025-04-04 01:21:47 - Telefone: 31 3275-3523
+2025-04-04 01:21:47 - Data_Validade: 31/03/2025
+2025-04-04 01:21:47 - Ultima_Atualizacao: 20/06/2022 - 09:19
+2025-04-04 01:21:47 - Token: a48c78d7422925345fffdd9bad282eaa
+2025-04-04 01:21:47 - --------------------------------------------------
+2025-04-04 01:21:50 - Processando: SAKSHOPMAGAZINE
+2025-04-04 01:22:07 - Informações encontradas para SAKSHOPMAGAZINE:
+2025-04-04 01:22:07 - Sequencia: 1
+2025-04-04 01:22:07 - ID: 21502
+2025-04-04 01:22:07 - Codigo: 519712209
+2025-04-04 01:22:07 - Nome: SAKURA SHOP1
+2025-04-04 01:22:07 - Nome_Fantasia: SAKSHOPMAGAZINE
+2025-04-04 01:22:07 - CNPJ: 26.700.367/0001-01
+2025-04-04 01:22:07 - CEP: 01225-020
+2025-04-04 01:22:07 - Telefone: 11 95276-9269
+2025-04-04 01:22:07 - Data_Validade: 03/04/2025
+2025-04-04 01:22:07 - Ultima_Atualizacao: 16/12/2021 - 20:40
+2025-04-04 01:22:07 - Token: bd09b95c0ff5b406879306e122801815
+2025-04-04 01:22:07 - --------------------------------------------------
+2025-04-04 01:22:10 - Processando: SARU COMMERCE 
+2025-04-04 01:22:27 - Informações encontradas para SARU COMMERCE :
+2025-04-04 01:22:27 - Sequencia: 1
+2025-04-04 01:22:27 - ID: 321655
+2025-04-04 01:22:27 - Codigo: 349255674
+2025-04-04 01:22:27 - Nome: SARU COMMERCE
+2025-04-04 01:22:27 - Nome_Fantasia: SARU COMMERCE
+2025-04-04 01:22:27 - CNPJ: 41.098.495/0001-10
+2025-04-04 01:22:27 - CEP: 02421-010
+2025-04-04 01:22:27 - Telefone: 11 94298-4295
+2025-04-04 01:22:27 - Data_Validade: 03/04/2025
+2025-04-04 01:22:27 - Ultima_Atualizacao: 13/01/2023 - 16:50
+2025-04-04 01:22:27 - Token: 9509e8252abdb2879e154569907b8d60
+2025-04-04 01:22:27 - --------------------------------------------------
+2025-04-04 01:22:30 - Processando: SER A FINA COSMETICOS
+2025-04-04 01:22:47 - Não foram encontradas informações para: SER A FINA COSMETICOS
+2025-04-04 01:22:47 - --------------------------------------------------
+2025-04-04 01:22:50 - Processando: SEU POSTO
+2025-04-04 01:23:07 - Informações encontradas para SEU POSTO:
+2025-04-04 01:23:07 - Sequencia: 1
+2025-04-04 01:23:07 - ID: 787117
+2025-04-04 01:23:07 - Codigo: 533483138
+2025-04-04 01:23:07 - Nome: SEU POSTO
+2025-04-04 01:23:07 - Nome_Fantasia: SEU POSTO
+2025-04-04 01:23:07 - CNPJ: 43.304.592/0001-48
+2025-04-04 01:23:07 - CEP: 02995-050
+2025-04-04 01:23:07 - Telefone: (11) 95906-9952
+2025-04-04 01:23:07 - Data_Validade: 03/04/2025
+2025-04-04 01:23:07 - Ultima_Atualizacao: 06/08/2024 - 12:46
+2025-04-04 01:23:07 - Token: 2f14369d7df8d1ef2a7b1d6b4fcaacee
+2025-04-04 01:23:07 - --------------------------------------------------
+2025-04-04 01:23:10 - Processando: SEVEN BRAND
+2025-04-04 01:23:27 - Informações encontradas para SEVEN BRAND:
+2025-04-04 01:23:27 - Sequencia: 1
+2025-04-04 01:23:27 - ID: 34221
+2025-04-04 01:23:27 - Codigo: 289346752
+2025-04-04 01:23:27 - Nome: SEVEN BRAND
+2025-04-04 01:23:27 - Nome_Fantasia: SEVEN BRAND
+2025-04-04 01:23:27 - CNPJ: 21.481.348/0001-18
+2025-04-04 01:23:27 - CEP: 02734-000
+2025-04-04 01:23:27 - Telefone: 11 3975-5336/11 94173 – 9763
+2025-04-04 01:23:27 - Data_Validade: 03/04/2025
+2025-04-04 01:23:27 - Ultima_Atualizacao: 25/05/2022 - 14:28
+2025-04-04 01:23:27 - Token: cf884fe97b43468a6c6042fe835c6814
+2025-04-04 01:23:27 - --------------------------------------------------
+2025-04-04 01:23:30 - Processando: SEWEEN
+2025-04-04 01:23:47 - Informações encontradas para SEWEEN:
+2025-04-04 01:23:47 - Sequencia: 1
+2025-04-04 01:23:47 - ID: 579687
+2025-04-04 01:23:47 - Codigo: 1593666017
+2025-04-04 01:23:47 - Nome: SEWEEN
+2025-04-04 01:23:47 - Nome_Fantasia: SEWEEN
+2025-04-04 01:23:47 - CNPJ: 51.886.260/0001-47
+2025-04-04 01:23:47 - CEP: 03012-000
+2025-04-04 01:23:47 - Telefone: 11 91645-0777
+2025-04-04 01:23:47 - Data_Validade: 02/04/2025
+2025-04-04 01:23:47 - Ultima_Atualizacao: 21/05/2024 - 15:26
+2025-04-04 01:23:47 - Token: 9f1ee9634ee433150bd271fd03267bf3
+2025-04-04 01:23:47 - --------------------------------------------------
+2025-04-04 01:23:50 - Processando: SHOPENVIO
+2025-04-04 01:24:07 - Informações encontradas para SHOPENVIO:
+2025-04-04 01:24:07 - Sequencia: 1
+2025-04-04 01:24:07 - ID: 452696
+2025-04-04 01:24:07 - Codigo: 1166886196
+2025-04-04 01:24:07 - Nome: SHOPENVIO
+2025-04-04 01:24:07 - Nome_Fantasia: SHOPENVIO
+2025-04-04 01:24:07 - CNPJ: 42.071.414/0001-51
+2025-04-04 01:24:07 - CEP: 06618-010
+2025-04-04 01:24:07 - Telefone: 11967986330
+2025-04-04 01:24:07 - Data_Validade: 03/04/2025
+2025-04-04 01:24:07 - Ultima_Atualizacao: 03/08/2023 - 10:16
+2025-04-04 01:24:07 - Token: a8cd7489864a1164f6b8ebe4e072d638
+2025-04-04 01:24:07 - --------------------------------------------------
+2025-04-04 01:24:10 - Processando: SKATE DOS SONHOS
+2025-04-04 01:24:27 - Informações encontradas para SKATE DOS SONHOS:
+2025-04-04 01:24:27 - Sequencia: 1
+2025-04-04 01:24:27 - ID: 326769
+2025-04-04 01:24:27 - Codigo: 185676066
+2025-04-04 01:24:27 - Nome: SKATE DOS SONHOS
+2025-04-04 01:24:27 - Nome_Fantasia: SKATE DOS SONHOS
+2025-04-04 01:24:27 - CNPJ: 20.799.526/0001-90
+2025-04-04 01:24:27 - CEP: 02405-000
+2025-04-04 01:24:27 - Telefone: 987000429
+2025-04-04 01:24:27 - Data_Validade: 16/01/2025
+2025-04-04 01:24:27 - Ultima_Atualizacao: 01/03/2023 - 17:14
+2025-04-04 01:24:27 - Token: 0ff1c0c0368879493e33aed741b0db36
+2025-04-04 01:24:27 - --------------------------------------------------
+2025-04-04 01:24:30 - Processando: SMARTCOMP
+2025-04-04 01:24:47 - Informações encontradas para SMARTCOMP:
+2025-04-04 01:24:47 - Sequencia: 1
+2025-04-04 01:24:47 - ID: 303659
+2025-04-04 01:24:47 - Codigo: 292959738
+2025-04-04 01:24:47 - Nome: SMARTCOMP
+2025-04-04 01:24:47 - Nome_Fantasia: SMARTCOMP
+2025-04-04 01:24:47 - CNPJ: 27.906.531/0001-02
+2025-04-04 01:24:47 - CEP: 08735-600
+2025-04-04 01:24:47 - Telefone: 11 96965-8054
+2025-04-04 01:24:47 - Data_Validade: 03/04/2025
+2025-04-04 01:24:47 - Ultima_Atualizacao: 18/11/2022 - 15:04
+2025-04-04 01:24:47 - Token: e4cc5387a0b51efd02916b01882f70ea
+2025-04-04 01:24:47 - --------------------------------------------------
+2025-04-04 01:24:50 - Processando: SO MAIS UM SHOES
+2025-04-04 01:25:07 - Não foram encontradas informações para: SO MAIS UM SHOES
+2025-04-04 01:25:07 - --------------------------------------------------
+2025-04-04 01:25:10 - Processando: SO PRODUTO
+2025-04-04 01:25:27 - Informações encontradas para SO PRODUTO:
+2025-04-04 01:25:27 - Sequencia: 1
+2025-04-04 01:25:27 - ID: 19637
+2025-04-04 01:25:27 - Codigo: 522026481
+2025-04-04 01:25:27 - Nome: SO PRODUTO #NFJ3
+2025-04-04 01:25:27 - Nome_Fantasia: SO PRODUTO
+2025-04-04 01:25:27 - CNPJ: 20.247.512/0001-64
+2025-04-04 01:25:27 - CEP: 02731-030
+2025-04-04 01:25:27 - Telefone: 11 98352-0246
+2025-04-04 01:25:27 - Data_Validade: 03/04/2025
+2025-04-04 01:25:27 - Ultima_Atualizacao: 10/11/2021 - 13:49
+2025-04-04 01:25:27 - Token: 88aed2c54dba80f3951e69c055171205
+2025-04-04 01:25:27 - --------------------------------------------------
+2025-04-04 01:25:30 - Processando: SOB MODA
+2025-04-04 01:25:48 - Informações encontradas para SOB MODA:
+2025-04-04 01:25:48 - Sequencia: 1
+2025-04-04 01:25:48 - ID: 32886
+2025-04-04 01:25:48 - Codigo: 290101348
+2025-04-04 01:25:48 - Nome: SOB MODA
+2025-04-04 01:25:48 - Nome_Fantasia: SOB MODA
+2025-04-04 01:25:48 - CNPJ: 30.111.521/0001-87
+2025-04-04 01:25:48 - CEP: 04119-050
+2025-04-04 01:25:48 - Telefone: 11 987188159
+2025-04-04 01:25:48 - Data_Validade: 01/04/2025
+2025-04-04 01:25:48 - Ultima_Atualizacao: 05/05/2022 - 09:54
+2025-04-04 01:25:48 - Token: c813ea8d653bf2e1f6dcef2483a98c7d
+2025-04-04 01:25:48 - --------------------------------------------------
+2025-04-04 01:25:51 - Processando: SOPRO DIVINO MUSICAL
+2025-04-04 01:26:08 - Informações encontradas para SOPRO DIVINO MUSICAL:
+2025-04-04 01:26:08 - Sequencia: 1
+2025-04-04 01:26:08 - ID: 533938
+2025-04-04 01:26:08 - Codigo: 535489643
+2025-04-04 01:26:08 - Nome: SOPRO DIVINO MUSICAL
+2025-04-04 01:26:08 - Nome_Fantasia: SOPRO DIVINO MUSICAL
+2025-04-04 01:26:08 - CNPJ: 36.601.958/0001-85
+2025-04-04 01:26:08 - CEP: 07704-030
+2025-04-04 01:26:08 - Telefone: (11) 97503-4157
+2025-04-04 01:26:08 - Data_Validade: 03/04/2025
+2025-04-04 01:26:08 - Ultima_Atualizacao: 19/04/2024 - 15:08
+2025-04-04 01:26:08 - Token: 9bd4fe6a8d8f78eba4e7ea8604d63da5
+2025-04-04 01:26:08 - --------------------------------------------------
+2025-04-04 01:26:11 - Processando: SP STORE
+2025-04-04 01:26:28 - Informações encontradas para SP STORE:
+2025-04-04 01:26:28 - Sequencia: 1
+2025-04-04 01:26:28 - ID: 810561
+2025-04-04 01:26:28 - Codigo: 374228978
+2025-04-04 01:26:28 - Nome: ARTESANALSP
+2025-04-04 01:26:28 - Nome_Fantasia: ARTESANALSP STORE
+2025-04-04 01:26:28 - CNPJ: 003.742.289-78
+2025-04-04 01:26:28 - CEP: 06455-000
+2025-04-04 01:26:28 - Telefone: 11 91216-5331
+2025-04-04 01:26:28 - Data_Validade: 21/10/2024
+2025-04-04 01:26:28 - Ultima_Atualizacao: 27/08/2024 - 20:20
+2025-04-04 01:26:28 - Token: 642d1e02801c21082d4b70b7e7522711
+2025-04-04 01:26:28 - --------------------------------------------------
+2025-04-04 01:26:31 - Processando: STRAHL COMERCIOELETRONICO - Loja Strahl
+2025-04-04 01:26:47 - Não foram encontradas informações para: STRAHL COMERCIOELETRONICO - Loja Strahl
+2025-04-04 01:26:47 - --------------------------------------------------
+2025-04-04 01:26:50 - Processando: SUPREMA REDES
+2025-04-04 01:27:07 - Informações encontradas para SUPREMA REDES:
+2025-04-04 01:27:07 - Sequencia: 1
+2025-04-04 01:27:07 - ID: 327448
+2025-04-04 01:27:07 - Codigo: 57365110
+2025-04-04 01:27:07 - Nome: SUPREMA REDES
+2025-04-04 01:27:07 - Nome_Fantasia: SUPREMA REDES
+2025-04-04 01:27:07 - CNPJ: 14.334.088/0001-92
+2025-04-04 01:27:07 - CEP: 03720-040
+2025-04-04 01:27:07 - Telefone: 20231849
+2025-04-04 01:27:07 - Data_Validade: 03/04/2025
+2025-04-04 01:27:07 - Ultima_Atualizacao: 10/03/2023 - 19:16
+2025-04-04 01:27:07 - Token: 7b8b5de8c76dadf59a3a1e237044670c
+2025-04-04 01:27:07 - --------------------------------------------------
+2025-04-04 01:27:10 - Processando: TAAKI STORE
+2025-04-04 01:27:27 - Informações encontradas para TAAKI STORE:
+2025-04-04 01:27:27 - Sequencia: 1
+2025-04-04 01:27:27 - ID: 533946
+2025-04-04 01:27:27 - Codigo: 1007890449
+2025-04-04 01:27:27 - Nome: TAAKI STORE
+2025-04-04 01:27:27 - Nome_Fantasia: TAAKI STORE
+2025-04-04 01:27:27 - CNPJ: 54.746.667/0001-67
+2025-04-04 01:27:27 - CEP: 01044-000
+2025-04-04 01:27:27 - Telefone: 11 41604671
+2025-04-04 01:27:27 - Data_Validade: 11/02/2025
+2025-04-04 01:27:27 - Ultima_Atualizacao: 19/04/2024 - 15:13
+2025-04-04 01:27:27 - Token: 54fec8fb9e64870b5af5bd85e7a7ab15
+2025-04-04 01:27:27 - --------------------------------------------------
+2025-04-04 01:27:30 - Processando: TAEKIBO
+2025-04-04 01:27:48 - Informações encontradas para TAEKIBO:
+2025-04-04 01:27:48 - Sequencia: 1
+2025-04-04 01:27:48 - ID: 272417
+2025-04-04 01:27:48 - Codigo: TAEKIBO
+2025-04-04 01:27:48 - Nome: ONLY PRESENTES
+2025-04-04 01:27:48 - Nome_Fantasia: TAEKIBO
+2025-04-04 01:27:48 - CNPJ: 46.726.896/0001-91
+2025-04-04 01:27:48 - CEP: 02186-000
+2025-04-04 01:27:48 - Telefone: 11 972069872
+2025-04-04 01:27:48 - Data_Validade: 14/03/2025
+2025-04-04 01:27:48 - Ultima_Atualizacao: 14/10/2022 - 17:21
+2025-04-04 01:27:48 - Token: f03ce2e6fb3646dad69fe5f769dc1dee
+2025-04-04 01:27:48 - --------------------------------------------------
+2025-04-04 01:27:51 - Processando: TECBIG
+2025-04-04 01:28:08 - Informações encontradas para TECBIG:
+2025-04-04 01:28:08 - Sequencia: 1
+2025-04-04 01:28:08 - ID: 449824
+2025-04-04 01:28:08 - Codigo: 1107092029
+2025-04-04 01:28:08 - Nome: TECBIG
+2025-04-04 01:28:08 - Nome_Fantasia: TECBIG
+2025-04-04 01:28:08 - CNPJ: 45.723.287/0001-16
+2025-04-04 01:28:08 - CEP: 30170-120
+2025-04-04 01:28:08 - Telefone: 31983965738
+2025-04-04 01:28:08 - Data_Validade: 27/03/2025
+2025-04-04 01:28:08 - Ultima_Atualizacao: 05/07/2023 - 09:25
+2025-04-04 01:28:08 - Token: 983f951c2f50798ba3c3f259aff80ead
+2025-04-04 01:28:08 - --------------------------------------------------
+2025-04-04 01:28:11 - Processando: TREM DE BEBE 
+2025-04-04 01:28:27 - Não foram encontradas informações para: TREM DE BEBE 
+2025-04-04 01:28:27 - --------------------------------------------------
+2025-04-04 01:28:30 - Processando: TUDO PARA VELAS
+2025-04-04 01:28:47 - Informações encontradas para TUDO PARA VELAS:
+2025-04-04 01:28:47 - Sequencia: 1
+2025-04-04 01:28:47 - ID: 461798
+2025-04-04 01:28:47 - Codigo: 706322100
+2025-04-04 01:28:47 - Nome: TUDO PARA VELAS
+2025-04-04 01:28:47 - Nome_Fantasia: TUDO PARA VELAS
+2025-04-04 01:28:47 - CNPJ: 41.696.888/0001-26
+2025-04-04 01:28:47 - CEP: 03144-080
+2025-04-04 01:28:47 - Telefone: 11980177895
+2025-04-04 01:28:47 - Data_Validade: 03/04/2025
+2025-04-04 01:28:47 - Ultima_Atualizacao: 25/10/2023 - 16:49
+2025-04-04 01:28:47 - Token: 81a38b24697a4cfa613e93e4845359a2
+2025-04-04 01:28:47 - --------------------------------------------------
+2025-04-04 01:28:50 - Processando: TUTTI AMORE PRODUTOS PARA BEBES
+2025-04-04 01:29:07 - Não foram encontradas informações para: TUTTI AMORE PRODUTOS PARA BEBES
+2025-04-04 01:29:07 - --------------------------------------------------
+2025-04-04 01:29:10 - Processando: VAN CASTELHANO MODAS
+2025-04-04 01:29:27 - Informações encontradas para VAN CASTELHANO MODAS:
+2025-04-04 01:29:27 - Sequencia: 1
+2025-04-04 01:29:27 - ID: 443188
+2025-04-04 01:29:27 - Codigo: VAN CASTELHANO MODAS
+2025-04-04 01:29:27 - Nome: VAN CASTELHANO MODAS
+2025-04-04 01:29:27 - Nome_Fantasia: VAN CASTELHANO MODAS
+2025-04-04 01:29:27 - CNPJ: 39.642.995/0001-20
+2025-04-04 01:29:27 - CEP: 02131-089
+2025-04-04 01:29:27 - Telefone: 11986129839
+2025-04-04 01:29:27 - Data_Validade: 02/04/2025
+2025-04-04 01:29:27 - Ultima_Atualizacao: 01/06/2023 - 09:33
+2025-04-04 01:29:27 - Token: 2bb290680d1a82686b114b9914c18bbb
+2025-04-04 01:29:27 - --------------------------------------------------
+2025-04-04 01:29:30 - Processando: VESTAPP
+2025-04-04 01:29:47 - Informações encontradas para VESTAPP:
+2025-04-04 01:29:47 - Sequencia: 1
+2025-04-04 01:29:47 - ID: 443220
+2025-04-04 01:29:47 - Codigo: VESTAPP
+2025-04-04 01:29:47 - Nome: VESTAPP
+2025-04-04 01:29:47 - Nome_Fantasia: VESTAPP
+2025-04-04 01:29:47 - CNPJ: 42.322.000/0001-58
+2025-04-04 01:29:47 - CEP: 02078-001
+2025-04-04 01:29:47 - Telefone: 11 5198-8158
+2025-04-04 01:29:47 - Data_Validade: 07/02/2025
+2025-04-04 01:29:47 - Ultima_Atualizacao: 01/06/2023 - 11:32
+2025-04-04 01:29:47 - Token: 0b651008ab3a0663a9e6fe6b6f20b887
+2025-04-04 01:29:47 - --------------------------------------------------
+2025-04-04 01:29:50 - Processando: VESTPATA
+2025-04-04 01:30:07 - Informações encontradas para VESTPATA:
+2025-04-04 01:30:07 - Sequencia: 1
+2025-04-04 01:30:07 - ID: 21195
+2025-04-04 01:30:07 - Codigo: 465575657
+2025-04-04 01:30:07 - Nome: VESTPATA
+2025-04-04 01:30:07 - Nome_Fantasia: VESTPATA
+2025-04-04 01:30:07 - CNPJ: 14.451.213/0001-44
+2025-04-04 01:30:07 - CEP: 08265-380
+2025-04-04 01:30:07 - Telefone: 956381639
+2025-04-04 01:30:07 - Data_Validade: 03/04/2025
+2025-04-04 01:30:07 - Ultima_Atualizacao: 09/12/2021 - 14:06
+2025-04-04 01:30:07 - Token: 643563232e016d0eddbfe3628f864424
+2025-04-04 01:30:07 - --------------------------------------------------
+2025-04-04 01:30:10 - Processando: VIBS FITWEAR
+2025-04-04 01:30:27 - Informações encontradas para VIBS FITWEAR:
+2025-04-04 01:30:27 - Sequencia: 1
+2025-04-04 01:30:27 - ID: 449250
+2025-04-04 01:30:27 - Codigo: 578194685
+2025-04-04 01:30:27 - Nome: VIBS FITWEAR
+2025-04-04 01:30:27 - Nome_Fantasia: VIBS FITWEAR
+2025-04-04 01:30:27 - CNPJ: 42.368.433/0001-44
+2025-04-04 01:30:27 - CEP: 07094-000
+2025-04-04 01:30:27 - Telefone: 11 97879-6422
+2025-04-04 01:30:27 - Data_Validade: 03/04/2025
+2025-04-04 01:30:27 - Ultima_Atualizacao: 30/06/2023 - 14:24
+2025-04-04 01:30:27 - Token: d6ae6d09b54657c0e15a38065f6f2e3d
+2025-04-04 01:30:27 - --------------------------------------------------
+2025-04-04 01:30:30 - Processando: VINSEL VINHOS
+2025-04-04 01:30:47 - Informações encontradas para VINSEL VINHOS:
+2025-04-04 01:30:47 - Sequencia: 1
+2025-04-04 01:30:47 - ID: 515216
+2025-04-04 01:30:47 - Codigo: 1552654908
+2025-04-04 01:30:47 - Nome: VINSEL VINHOS
+2025-04-04 01:30:47 - Nome_Fantasia: VINSEL VINHOS
+2025-04-04 01:30:47 - CNPJ: 51.372.741/0002-15
+2025-04-04 01:30:47 - CEP: 06460-121
+2025-04-04 01:30:47 - Telefone: (27) 99661-2782
+2025-04-04 01:30:47 - Data_Validade: 03/04/2025
+2025-04-04 01:30:47 - Ultima_Atualizacao: 22/03/2024 - 16:50
+2025-04-04 01:30:47 - Token: 89857b118dcca2959d15e6da91b9c900
+2025-04-04 01:30:47 - --------------------------------------------------
+2025-04-04 01:30:50 - Processando: WET DREAMS
+2025-04-04 01:31:07 - Informações encontradas para WET DREAMS:
+2025-04-04 01:31:07 - Sequencia: 1
+2025-04-04 01:31:07 - ID: 494816
+2025-04-04 01:31:07 - Codigo: 184570111
+2025-04-04 01:31:07 - Nome: WET DREAMS
+2025-04-04 01:31:07 - Nome_Fantasia: WET DREAMS
+2025-04-04 01:31:07 - CNPJ: 09.001.021/0001-04
+2025-04-04 01:31:07 - CEP: 06530-181
+2025-04-04 01:31:07 - Telefone: (11) 97105-6705
+2025-04-04 01:31:07 - Data_Validade: 03/04/2025
+2025-04-04 01:31:07 - Ultima_Atualizacao: 05/02/2024 - 09:41
+2025-04-04 01:31:07 - Token: 7cabcc43c0f2dfebce816ecd05acfb12
+2025-04-04 01:31:07 - --------------------------------------------------
+2025-04-04 01:31:10 - Processando: WM CORTE A LASER COMERCIO LTDA
+2025-04-04 01:31:27 - Informações encontradas para WM CORTE A LASER COMERCIO LTDA:
+2025-04-04 01:31:27 - Sequencia: 1
+2025-04-04 01:31:27 - ID: 496742
+2025-04-04 01:31:27 - Codigo: WM CORTE A LASER COMERCIO LTDA
+2025-04-04 01:31:27 - Nome: WM CORTE A LASER COMERCIO LTDA
+2025-04-04 01:31:27 - Nome_Fantasia: WM CORTE A LASER COMERCIO LTDA
+2025-04-04 01:31:27 - CNPJ: 30.841.755/0001-80
+2025-04-04 01:31:27 - CEP: 31960-340
+2025-04-04 01:31:27 - Telefone: 31984128864
+2025-04-04 01:31:27 - Data_Validade: 01/04/2025
+2025-04-04 01:31:27 - Ultima_Atualizacao: 09/02/2024 - 09:52
+2025-04-04 01:31:27 - Token: abffbef381cefd9b2a48bba8b01f8410
+2025-04-04 01:31:27 - --------------------------------------------------
+2025-04-04 01:31:30 - Processando: ZORT GAMES
+2025-04-04 01:31:47 - Informações encontradas para ZORT GAMES:
+2025-04-04 01:31:47 - Sequencia: 1
+2025-04-04 01:31:47 - ID: 451197
+2025-04-04 01:31:47 - Codigo: 664510597
+2025-04-04 01:31:47 - Nome: ZORT GAMES
+2025-04-04 01:31:47 - Nome_Fantasia: ZORT GAMES
+2025-04-04 01:31:47 - CNPJ: 23.754.063/0001-39
+2025-04-04 01:31:47 - CEP: 03164-100
+2025-04-04 01:31:47 - Telefone: 11 98912-1957
+2025-04-04 01:31:47 - Data_Validade: 02/04/2025
+2025-04-04 01:31:47 - Ultima_Atualizacao: 17/07/2023 - 17:22
+2025-04-04 01:31:47 - Token: d4b0f38b0c9bef446333a5bb5339ddc6
+2025-04-04 01:31:47 - --------------------------------------------------
+2025-04-04 01:31:50 - Automação finalizada!
