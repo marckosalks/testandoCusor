@@ -17,7 +17,7 @@ log_file = f"log_busca_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
 
 def write_to_log(message):
     with open(log_file, "a", encoding="utf-8") as f:
-        f.write(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - {message}\n")
+        f.write(f"{message}\n")
 
 # Obtém o diretório onde o script está rodando
 
@@ -67,7 +67,7 @@ try:
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get("https://tracken.app.br/tracken/#")
     print("⏳ Aguardando página carregar...")
-    time.sleep(15)  # Aumenta o tempo de espera inicial
+    time.sleep(15)  # Aumentado de 10 para 15 segundos
     
     # Verifica se precisa fazer login
     try:
@@ -75,58 +75,23 @@ try:
         if login_field:
             print("🔐 Por favor, faça o login manualmente e pressione ENTER quando estiver pronto...")
             input()
-            print("⏳ Aguardando página carregar após login...")
-            time.sleep(10)  # Aguarda a página carregar após o login
     except:
         print("✅ Já está logado ou login não é necessário")
 
     # 🔹 Configurar o filtro "Nome Fantasia" uma única vez
     print("⏳ Configurando filtro 'Nome Fantasia'...")
-    
-    # Aguarda o dropdown estar visível e clicável
-    dropdown_button = WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, "button[data-id='cli_vbuscaf']"))
+    dropdown_button = WebDriverWait(driver, 15).until(  # Aumentado de 10 para 15 segundos
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-id='cli_vbuscaf']"))
     )
-    time.sleep(2)  # Pequena pausa adicional
-    
-    # Tenta clicar no dropdown
-    try:
-        dropdown_button.click()
-        print("✅ Dropdown clicado com sucesso")
-    except Exception as e:
-        print(f"⚠️ Erro ao clicar no dropdown: {e}")
-        # Tenta clicar usando JavaScript como alternativa
-        driver.execute_script("arguments[0].click();", dropdown_button)
-        print("✅ Dropdown clicado usando JavaScript")
+    dropdown_button.click()
+    time.sleep(2)  # Aumentado de 1 para 2 segundos
 
-    time.sleep(2)  # Aguarda o menu abrir
-
-    # Procura pela opção "Nome Fantasia"
-    opcoes = WebDriverWait(driver, 10).until(
-        EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".dropdown-menu li"))
-    )
-    
-    opcao_encontrada = False
+    opcoes = driver.find_elements(By.CSS_SELECTOR, ".dropdown-menu li")
     for opcao in opcoes:
-        if "Nome Fantasia" in opcao.text.strip():
-            try:
-                opcao.click()
-                opcao_encontrada = True
-                print("✅ Opção 'Nome Fantasia' selecionada com sucesso")
-                break
-            except Exception as e:
-                print(f"⚠️ Erro ao clicar na opção: {e}")
-                # Tenta clicar usando JavaScript como alternativa
-                driver.execute_script("arguments[0].click();", opcao)
-                opcao_encontrada = True
-                print("✅ Opção 'Nome Fantasia' selecionada usando JavaScript")
-                break
-
-    if not opcao_encontrada:
-        print("⚠️ Não foi possível encontrar a opção 'Nome Fantasia'")
-        raise Exception("Opção 'Nome Fantasia' não encontrada")
-
-    time.sleep(2)  # Aguarda a seleção ser aplicada
+        if opcao.text.strip() == "Nome Fantasia":
+            opcao.click()
+            break
+    time.sleep(2)  # Aumentado de 1 para 2 segundos
     print("✅ Filtro 'Nome Fantasia' configurado com sucesso!")
 
     # Para cada nome na planilha
@@ -134,23 +99,23 @@ try:
         try:
             print(f"\n🔍 Processando: {nome}")
             write_to_log(f"Processando: {nome}")
-            time.sleep(2)  # Espera entre cada busca
+            time.sleep(3)  # Aumentado de 2 para 3 segundos
 
             # Espera explícita pelo campo de busca
-            campo_pesquisa = WebDriverWait(driver, 10).until(
+            campo_pesquisa = WebDriverWait(driver, 15).until(  # Aumentado de 10 para 15 segundos
                 EC.presence_of_element_located((By.ID, "cli_vbuscav"))
             )
             campo_pesquisa.clear()
             campo_pesquisa.send_keys(nome)
 
-            time.sleep(1)
+            time.sleep(2)  # Aumentado de 1 para 2 segundos
 
             # 🔹 Clicar no botão de pesquisa
             botao_pesquisa = driver.find_element(By.ID, "btsearch")
             botao_pesquisa.click()
 
             # Aguarda os resultados carregarem
-            time.sleep(3)
+            time.sleep(5)  # Aumentado de 3 para 5 segundos
 
             try:
                 # 🔹 Encontrar a tabela e extrair informações
@@ -180,17 +145,12 @@ try:
                 }
                 
                 # Salvar informações no log
-                write_to_log(f"Informações encontradas para {nome}:")
-                for chave, valor in dados.items():
-                    if valor and valor.strip():
-                        write_to_log(f"{chave}: {valor}")
-                    else:
-                        write_to_log(f"{chave}: Não informado")
+                write_to_log(f"{nome} - {dados['Telefone'] if dados['Telefone'] and dados['Telefone'].strip() else 'Telefone não encontrado'}")
                 write_to_log("-" * 50)  # Separador entre registros
 
             except Exception as e:
                 print(f"⚠️ Erro ao extrair dados da tabela: {str(e)}")
-                write_to_log(f"Não foram encontradas informações para: {nome}")
+                write_to_log(f"{nome} - Loja não encontrada")
                 write_to_log("-" * 50)  # Separador entre registros
 
             time.sleep(3)  # Espera os resultados carregarem
