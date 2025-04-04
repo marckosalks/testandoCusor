@@ -3,6 +3,7 @@ automacaoplanilhhabling.json
 
 # Arquivos de log
 log_busca_*.txt
+j3.txt
 
 # Python
 __pycache__/
