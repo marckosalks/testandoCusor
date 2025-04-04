@@ -4,7 +4,7 @@ automacaoplanilhhabling.json
 # Arquivos de log
 log_busca_*.txt
 j3.txt
-
+Expresso_flex
 # Python
 __pycache__/
 *.py[cod]
