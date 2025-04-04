@@ -1,0 +1,10 @@
+# Arquivos de credenciais
+automacaoplanilhhabling.json
+
+# Arquivos de log
+log_busca_*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class 
