@@ -116,6 +116,30 @@ def login_website():
                 numero_field.send_keys(cliente['telefone'])
                 time.sleep(2)
 
+                # Encontrar e selecionar a instância TRACKEN
+                print("Procurando o campo de instância...")
+                instancia_container = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "css_id_instancia_obj")))
+                print("Container de instância encontrado...")
+                
+                # Usar JavaScript para selecionar a opção TRACKEN
+                print("Selecionando a opção 'TRACKEN'...")
+                driver.execute_script("""
+                    // Encontrar o select
+                    var select = document.getElementById('id_sc_field_id_instancia');
+                    if (select) {
+                        // Encontrar a opção com value="768"
+                        var option = select.querySelector('option[value="768"]');
+                        if (option) {
+                            // Selecionar a opção
+                            option.selected = true;
+                            // Disparar o evento change para atualizar o select2
+                            var event = new Event('change', { bubbles: true });
+                            select.dispatchEvent(event);
+                        }
+                    }
+                """)
+                time.sleep(2)
+
                 # Encontrar e preencher o campo de grupo
                 print("Procurando o campo de grupo...")
                 # Encontrar o elemento select2 pelo ID específico
