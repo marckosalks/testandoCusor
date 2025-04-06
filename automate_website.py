@@ -116,6 +116,34 @@ def login_website():
                 print("Opção encontrada, selecionando...")
                 opcao_grupo.click()
                 time.sleep(2)
+
+                # Encontrar e preencher o campo de etiquetas
+                print("Procurando o campo de etiquetas...")
+                # Aguardar mais tempo para garantir que o elemento esteja pronto
+                time.sleep(5)
+                
+                # Encontrar o elemento select2 de etiquetas
+                etiquetas_container = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "css_ids_etiquetas_obj")))
+                print("Container de etiquetas encontrado...")
+                
+                # Usar JavaScript para selecionar a opção "Desenvolvedor | Seller"
+                print("Selecionando a opção 'Desenvolvedor | Seller'...")
+                driver.execute_script("""
+                    // Encontrar o select
+                    var select = document.getElementById('id_sc_field_ids_etiquetas');
+                    if (select) {
+                        // Encontrar a opção com value="7001"
+                        var option = select.querySelector('option[value="7001"]');
+                        if (option) {
+                            // Selecionar a opção
+                            option.selected = true;
+                            // Disparar o evento change para atualizar o select2
+                            var event = new Event('change', { bubbles: true });
+                            select.dispatchEvent(event);
+                        }
+                    }
+                """)
+                time.sleep(2)
             else:
                 print("Nenhum cliente encontrado no arquivo JSON")
             
