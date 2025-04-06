@@ -4,6 +4,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.action_chains import ActionChains
 import time
 import json
 import os
@@ -97,6 +99,23 @@ def login_website():
                 nome_field.clear()
                 nome_field.send_keys(nome_cliente)
                 time.sleep(5)
+
+                # Encontrar e preencher o campo de grupo
+                print("Procurando o campo de grupo...")
+                # Encontrar o elemento select2 pelo ID específico
+                select2_container = wait.until(EC.presence_of_element_located((By.ID, "select2-id_sc_field_grupo-container")))
+                print("Container do select2 encontrado, clicando...")
+                
+                # Clicar no container para abrir o dropdown
+                select2_container.click()
+                time.sleep(2)
+                
+                # Procurar a opção "Importados Agenda" no dropdown aberto
+                print("Procurando a opção 'Importados Agenda'...")
+                opcao_grupo = wait.until(EC.presence_of_element_located((By.XPATH, "//li[contains(text(), 'Importados Agenda')]")))
+                print("Opção encontrada, selecionando...")
+                opcao_grupo.click()
+                time.sleep(2)
             else:
                 print("Nenhum cliente encontrado no arquivo JSON")
             
