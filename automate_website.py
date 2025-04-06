@@ -184,6 +184,54 @@ def login_website():
                     }
                 """)
                 time.sleep(2)
+
+                # Encontrar e clicar no botão Incluir
+                print("Procurando o botão Incluir...")
+                botao_incluir = wait.until(EC.element_to_be_clickable((By.ID, "sc_b_ins_t")))
+                print("Botão Incluir encontrado, clicando...")
+                botao_incluir.click()
+                time.sleep(5)
+
+                # Verificar se houve mensagem de sucesso
+                try:
+                    # Procurar por mensagem de sucesso
+                    mensagem_sucesso = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "swal2-success")))
+                    print("Mensagem de sucesso encontrada!")
+                    
+                    # Salvar resultado em arquivo
+                    with open('resultado_cadastro.txt', 'w', encoding='utf-8') as file:
+                        file.write("SUCESSO: Contato cadastrado com sucesso!\n")
+                        file.write(f"Cliente: {cliente['nome']}\n")
+                        file.write(f"DDD: {cliente['ddd']}\n")
+                        file.write(f"Telefone: {cliente['telefone']}\n")
+                        file.write(f"Data/Hora: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    
+                except Exception as e:
+                    print("Erro ao cadastrar contato!")
+                    # Tentar capturar a mensagem de erro
+                    try:
+                        mensagem_erro = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "swal2-error")))
+                        texto_erro = mensagem_erro.text
+                        print(f"Mensagem de erro: {texto_erro}")
+                        
+                        # Salvar erro em arquivo
+                        with open('resultado_cadastro.txt', 'w', encoding='utf-8') as file:
+                            file.write(f"ERRO: {texto_erro}\n")
+                            file.write(f"Cliente: {cliente['nome']}\n")
+                            file.write(f"DDD: {cliente['ddd']}\n")
+                            file.write(f"Telefone: {cliente['telefone']}\n")
+                            file.write(f"Data/Hora: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    except:
+                        print("Não foi possível capturar a mensagem de erro")
+                        # Salvar erro genérico em arquivo
+                        with open('resultado_cadastro.txt', 'w', encoding='utf-8') as file:
+                            file.write("ERRO: Não foi possível cadastrar o contato\n")
+                            file.write(f"Cliente: {cliente['nome']}\n")
+                            file.write(f"DDD: {cliente['ddd']}\n")
+                            file.write(f"Telefone: {cliente['telefone']}\n")
+                            file.write(f"Data/Hora: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+                
+                time.sleep(5)
             else:
                 print("Nenhum cliente encontrado no arquivo JSON")
             
