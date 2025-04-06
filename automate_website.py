@@ -84,21 +84,29 @@ def login_website():
                 transportadoras = json.load(file)
             
             # Procurar a primeira transportadora que tenha clientes
-            nome_cliente = None
+            cliente = None
             for transportadora in transportadoras:
                 if transportadora.get('clientes') and len(transportadora['clientes']) > 0:
-                    nome_cliente = transportadora['clientes'][0]['nome']
-                    print(f"Cliente encontrado: {nome_cliente}")
+                    cliente = transportadora['clientes'][0]
+                    print(f"Cliente encontrado: {cliente['nome']} (DDD: {cliente['ddd']})")
                     break
             
-            if nome_cliente:
+            if cliente:
                 # Encontrar e preencher o campo de nome
                 print("Procurando o campo de nome...")
                 nome_field = wait.until(EC.presence_of_element_located((By.ID, "id_sc_field_nome")))
                 print("Campo de nome encontrado, preenchendo...")
                 nome_field.clear()
-                nome_field.send_keys(nome_cliente)
+                nome_field.send_keys(cliente['nome'])
                 time.sleep(5)
+
+                # Encontrar e preencher o campo de DDD
+                print("Procurando o campo de DDD...")
+                ddd_field = wait.until(EC.presence_of_element_located((By.ID, "id_sc_field_dd")))
+                print("Campo de DDD encontrado, preenchendo...")
+                ddd_field.clear()
+                ddd_field.send_keys(cliente['ddd'])
+                time.sleep(2)
 
                 # Encontrar e preencher o campo de grupo
                 print("Procurando o campo de grupo...")
