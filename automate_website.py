@@ -108,6 +108,14 @@ def login_website():
                 ddd_field.send_keys(cliente['ddd'])
                 time.sleep(2)
 
+                # Encontrar e preencher o campo de número de telefone
+                print("Procurando o campo de número...")
+                numero_field = wait.until(EC.presence_of_element_located((By.ID, "id_sc_field_numero")))
+                print("Campo de número encontrado, preenchendo...")
+                numero_field.clear()
+                numero_field.send_keys(cliente['telefone'])
+                time.sleep(2)
+
                 # Encontrar e preencher o campo de grupo
                 print("Procurando o campo de grupo...")
                 # Encontrar o elemento select2 pelo ID específico
