@@ -1,0 +1,5 @@
+ERRO: Não foi possível cadastrar o contato
+Cliente: BC ETIQUETAS
+DDD: 21
+Telefone: 997999023
+Data/Hora: 2025-04-06 23:05:39

@@ -4,72 +4,9 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.action_chains import ActionChains
 import time
 import json
 import os
-
-def registrar_numero_sem_whatsapp(cliente):
-    """Registra números que não possuem WhatsApp em um arquivo JSON"""
-    arquivo_sem_whatsapp = 'numeros_sem_whatsapp.json'
-    dados = []
-    
-    # Verifica se o arquivo já existe
-    if os.path.exists(arquivo_sem_whatsapp):
-        with open(arquivo_sem_whatsapp, 'r', encoding='utf-8') as file:
-            try:
-                dados = json.load(file)
-            except json.JSONDecodeError:
-                dados = []
-    
-    # Adiciona o novo número à lista
-    novo_registro = {
-        'nome': cliente['nome'],
-        'ddd': cliente['ddd'],
-        'telefone': cliente['telefone'],
-        'data_verificacao': time.strftime('%Y-%m-%d %H:%M:%S')
-    }
-    
-    # Verifica se o número já está registrado
-    if not any(reg['telefone'] == cliente['telefone'] for reg in dados):
-        dados.append(novo_registro)
-        
-        # Salva a lista atualizada
-        with open(arquivo_sem_whatsapp, 'w', encoding='utf-8') as file:
-            json.dump(dados, file, ensure_ascii=False, indent=4)
-        print(f"Número {cliente['ddd']}{cliente['telefone']} registrado como sem WhatsApp")
-
-def registrar_numero_ja_cadastrado(cliente, etiqueta_existente):
-    """Registra números que já estão cadastrados com outras etiquetas"""
-    arquivo_ja_cadastrados = 'numeros_ja_cadastrados.json'
-    dados = []
-    
-    # Verifica se o arquivo já existe
-    if os.path.exists(arquivo_ja_cadastrados):
-        with open(arquivo_ja_cadastrados, 'r', encoding='utf-8') as file:
-            try:
-                dados = json.load(file)
-            except json.JSONDecodeError:
-                dados = []
-    
-    # Adiciona o novo registro
-    novo_registro = {
-        'nome': cliente['nome'],
-        'ddd': cliente['ddd'],
-        'telefone': cliente['telefone'],
-        'etiqueta_existente': etiqueta_existente,
-        'data_verificacao': time.strftime('%Y-%m-%d %H:%M:%S')
-    }
-    
-    # Verifica se o número já está registrado
-    if not any(reg['telefone'] == cliente['telefone'] for reg in dados):
-        dados.append(novo_registro)
-        
-        # Salva a lista atualizada
-        with open(arquivo_ja_cadastrados, 'w', encoding='utf-8') as file:
-            json.dump(dados, file, ensure_ascii=False, indent=4)
-        print(f"Número {cliente['ddd']}{cliente['telefone']} registrado como já cadastrado com etiqueta: {etiqueta_existente}")
 
 def processar_contato(driver, wait, cliente):
     """Processa um único contato, preenchendo o formulário"""
@@ -139,22 +76,25 @@ def processar_contato(driver, wait, cliente):
         print(f"Erro ao processar contato {cliente['nome']}: {str(e)}")
         return False
 
-def obter_proximo_cliente(transportadoras, processados):
-    """Função para obter o próximo cliente não processado do JSON"""
-    for transportadora in transportadoras:
-        if 'clientes' in transportadora and transportadora['clientes']:
-            for cliente in transportadora['clientes']:
-                cliente_id = f"{cliente['ddd']}{cliente['telefone']}"
-                if cliente_id not in processados:
-                    return cliente
-    return None
+def processar_pendentes():
+    # Carregar contatos pendentes
+    try:
+        with open('contatos_pendentes.json', 'r', encoding='utf-8') as file:
+            contatos_pendentes = json.load(file)
+    except FileNotFoundError:
+        print("Arquivo de contatos pendentes não encontrado!")
+        print("Execute primeiro o script verificar_progresso.py")
+        return
 
-def login_website():
-    # Configurar opções do Chrome
+    # Carregar contatos já processados
+    processados = set()
+    if os.path.exists('progresso_cadastro.json'):
+        with open('progresso_cadastro.json', 'r', encoding='utf-8') as file:
+            processados = set(json.load(file))
+
+    # Configurar Chrome
     chrome_options = Options()
     chrome_options.add_argument("--start-maximized")
-    
-    # Inicializar o driver do Chrome
     driver = webdriver.Chrome(options=chrome_options)
     
     try:
@@ -162,7 +102,7 @@ def login_website():
         driver.get("https://new.bitsac.com.br/")
         time.sleep(3)
         
-        # Login no site
+        # Login
         print("Fazendo login...")
         wait = WebDriverWait(driver, 20)
         iframe = wait.until(EC.presence_of_element_located((By.TAG_NAME, "iframe")))
@@ -180,25 +120,13 @@ def login_website():
         login_button.click()
         time.sleep(3)
 
-        # Ler arquivo de progresso se existir
-        processados = set()
-        if os.path.exists('progresso_cadastro.json'):
-            with open('progresso_cadastro.json', 'r', encoding='utf-8') as file:
-                processados = set(json.load(file))
-
-        # Ler o arquivo de transportadoras
-        with open('transportadoras_organizadas.json', 'r', encoding='utf-8') as file:
-            transportadoras = json.load(file)
-
-        total_processados = len(processados)
-        total_clientes = sum(len(t.get('clientes', [])) for t in transportadoras)
-        
-        print(f"\nIniciando processamento de {total_clientes} contatos...")
-        print(f"Já processados anteriormente: {total_processados}")
+        total_pendentes = len(contatos_pendentes)
+        print(f"\nIniciando processamento de {total_pendentes} contatos pendentes...")
         
         ultimo_modal_processado = None
+        processados_agora = 0
         
-        while True:  # Loop infinito para continuar processando
+        while contatos_pendentes:  # Continua enquanto houver contatos pendentes
             try:
                 # Voltar para o conteúdo principal e esperar o modal
                 driver.switch_to.default_content()
@@ -222,25 +150,26 @@ def login_website():
                 modal_iframe = wait.until(EC.presence_of_element_located((By.ID, "adicionar_contato_iframe")))
                 driver.switch_to.frame(modal_iframe)
                 
-                # Obter próximo cliente não processado
-                proximo_cliente = obter_proximo_cliente(transportadoras, processados)
+                # Pegar próximo contato pendente
+                cliente = contatos_pendentes.pop(0)  # Remove e retorna o primeiro contato da lista
                 
-                if proximo_cliente:
-                    print(f"\nProcessando cliente: {proximo_cliente['nome']} (DDD: {proximo_cliente['ddd']})")
+                if processar_contato(driver, wait, cliente):
+                    cliente_id = f"{cliente['ddd']}{cliente['telefone']}"
+                    processados.add(cliente_id)
+                    processados_agora += 1
                     
-                    if processar_contato(driver, wait, proximo_cliente):
-                        cliente_id = f"{proximo_cliente['ddd']}{proximo_cliente['telefone']}"
-                        processados.add(cliente_id)
-                        
-                        # Salvar progresso
-                        with open('progresso_cadastro.json', 'w', encoding='utf-8') as file:
-                            json.dump(list(processados), file)
-                        
-                        total_processados += 1
-                        print(f"Progresso: {total_processados}/{total_clientes} contatos processados")
+                    # Salvar progresso
+                    with open('progresso_cadastro.json', 'w', encoding='utf-8') as file:
+                        json.dump(list(processados), file)
+                    
+                    # Atualizar arquivo de pendentes
+                    with open('contatos_pendentes.json', 'w', encoding='utf-8') as file:
+                        json.dump(contatos_pendentes, file, ensure_ascii=False, indent=4)
+                    
+                    print(f"Progresso: {processados_agora}/{total_pendentes} contatos pendentes processados")
                 else:
-                    print("\nTodos os contatos foram processados!")
-                    break
+                    # Se falhou, coloca o contato de volta na lista
+                    contatos_pendentes.append(cliente)
                 
                 time.sleep(1)
                 
@@ -250,8 +179,8 @@ def login_website():
                 time.sleep(3)
                 continue
         
-        print("\nProcessamento concluído!")
-        print(f"Total de contatos processados: {total_processados}")
+        print("\nProcessamento dos contatos pendentes concluído!")
+        print(f"Total de contatos processados nesta sessão: {processados_agora}")
         
     except Exception as e:
         print(f"Erro principal: {str(e)}")
@@ -261,4 +190,4 @@ def login_website():
         driver.quit()
 
 if __name__ == "__main__":
-    login_website() 
+    processar_pendentes() 
